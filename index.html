@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Introduction to Programming - COMP110 - 24S.003</title>
+  <link rel="icon" type="image/png" href="/static/cottage_logo.png" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="/static/styles.css?v=1717591678.9419518">
+
+
+</head>
+
+<script src="/static/scripts/hidden-button.js"></script> 
+
+<body onload = "show()"id="body" class="absolute-page">
+    <script>
+        document.body.classList.remove('light-mode');
+        document.body.classList.remove('dark-mode');
+        document.body.classList.add(localStorage.getItem('mode'));
+    </script>
+  <script src="/static/scripts/nav-menu-esc.js"></script> 
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark py-1 fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/"><img class="lightmode-element-only img-fluid logo" src="/static/assets/cottagecore_nav.png"
+        alt="COMP110 - Spring - 2024"><img class="darkmode-element-only img-fluid logo" src="/static/cottagebrand_dark.png"
+        alt="COMP110 - Spring - 2024"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" onclick="esc_key()" data-bs-target="#navmenu" aria-label="Main Menu" aria-controls="#navmenu" role="navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link " href="/">agenda</a>
+          </li>
+          <li class="nav-item">
+            <a href="/resources" class="nav-link">resources</a>
+          </li>
+          
+          <li class="nav-item">
+            <a href="/support" class="nav-link">support</a>
+          </li>
+         
+          <li class="nav-item">
+            <a href="/resources/syllabus.html" class="nav-link">syllabus</a>
+          </li>
+          
+          <li class="nav-item">
+            <a href="/resources/team.html" class="nav-link">team110</a>
+          </li>
+         
+        </ul>
+      </div>
+      <div id='mode-switch' class="ms-auto form-check form-switch mode switches">
+              <div class="switches">
+                  <input type="checkbox" id="1" onclick="
+                      if (localStorage.getItem('mode') === 'dark-mode') {
+                          localStorage.setItem('userPref', 'light-mode');
+                          localStorage.setItem('mode', 'light-mode');
+                      } else {
+                          localStorage.setItem('userPref', 'dark-mode');
+                          localStorage.setItem('mode', 'dark-mode');
+                      }
+                      location.reload();">
+                  <label for="1">
+                      <span id="mode-label">Dark Mode</span>
+                      <span></span>
+                  </label>
+                  <script>if(localStorage.getItem('mode') === 'dark-mode'){document.getElementById("1").checked = true}</script>
+                  <script>if(localStorage.getItem('userPref') === null) {setTimeout(function(){location.reload();}, (timer * 3600000));}</script>
+              </div>
+          </div>
+    </div>
+  </nav>
+
+  
+  <a href="#latest">
+    <button id="hiddenButton" style="display: none;"class="text-center" >Skip To Main Content</button>
+  </a>
+  <div class="cloud-container">
+      <div id="cloud-intro">
+        <a href="#latest">
+          <button id="hiddenButton" style="display: none;"class="text-center" >Skip To Main Content</button>
+        </a>
+
+      <div class="container">
+        <div class="content"><div class="link-page pt-4">
+<div class="row">
+
+<!-- Horizon Box/Column -->
+<div class="col-lg-4 col-md-12 col-md-1 order-lg-3 pt-5">
+<div>
+<div class="sun">
+
+</div>
+<div class="horizon-box mb-3">
+<h3 class="header text-center pt-2">
+On The Horizon
+</h3>
+</div>
+</div>
+<div class="past-link">
+<div class="past-btn">
+<a href="#past">
+<div class="text-center align-middle past-text">
+Past Lectures <span class="down-arrow">↓</span>
+</div>
+</div>
+<p></a></p>
+</div>
+</div>
+<!-- Agenda Box/Column -->
+<div class="col-lg-8 col-md-12 order-sm-2 order-lg-1 itinerary-col itinerary">
+<div>
+<!-- Allows us to smooth scroll to This Week and Coming Up section -->
+<div id="latest" class="pb-3">
+
+</div>
+<br> <!-- Current Week and Future -->
+<h3 class="header">
+This Week and Coming Up
+</h3>
+</div>
+<div class="row itinerary-row py-2" data-type="lecture" data-date="2024-04-30">
+<div class="date col-md-2">
+Tue, Apr 30
+</div>
+<div class="plans col-md-9">
+<div class="plan Class">
+<span class="kind">CL23 </span><span class="title">The Joy of Programming</span>
+<ul class="links">
+<li class="link">
+<a href="https://youtube.com/live/j1g0SIGURpE?feature=share">Lecture Recording</a>
+</li>
+<li class="link">
+<a href="/static/slides/cl23_joy.pdf">Slides</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row itinerary-row py-2" data-type="lecture" data-date="2024-05-03">
+<div class="date col-md-2">
+Fri, May 3
+</div>
+<div class="plans col-md-9">
+<div class="plan Final">
+<span class="kind">FN00 </span><span class="title">Final @ 8:00AM</span>
+<ul class="links">
+<li class="link">
+<a href="/static/practice/qz00-practice.pdf">QZ00 Practice</a>
+</li>
+<li class="link">
+<a href="/static/practice/qz00-practice-key.pdf">QZ00 Practice (Key)</a>
+</li>
+<li class="link">
+<a href="/static/practice/qz01-practice.pdf">QZ01 Practice</a>
+</li>
+<li class="link">
+<a href="/static/practice/qz01-practice-key.pdf">QZ01 Practice (Key)</a>
+</li>
+<li class="link">
+<a href="/static/practice/qz02-practice.pdf">QZ02 Practice</a>
+</li>
+<li class="link">
+<a href="/static/practice/qz02-practice-key.pdf">QZ02 Practice (Key)</a>
+</li>
+<li class="link">
+<a href="/static/practice/qz03-practice.pdf">QZ03 Practice</a>
+</li>
+<li class="link">
+<a href="/static/practice/qz03-practice-key.pdf">QZ03 Practice (Key)</a>
+</li>
+<li class="link">
+<a href="/static/practice/fn00-practice.pdf">Final Supplement Practice</a>
+</li>
+<li class="link">
+<a href="/static/practice/fn00-practice-key.pdf">Final Supplement Practice (Key)</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- The Past section -->
+<div id="past" class="pb-2">
+
+</div>
+<hr>
+<h3 class="header pt-3">
+The Past
+</h3>
+<div class="row itinerary-row py-2" data-type="lecture" data-date="2024-04-25">
+<div class="date col-md-2">
+Thu, Apr 25
+</div>
+<div class="plans col-md-9">
+<div class="plan Class">
+<span class="kind">CL22 </span><span class="title">OOP Practice</span>
+<ul class="links">
+<li class="link">
+<a href="https://youtube.com/live/J1jqRug4FP8?feature=share">Lecture Recording (1st half)</a>
+</li>
+<li class="link">
+<a href="https://youtu.be/Kb8jDGkUOMU">Cut-off Lecture (2nd half)</a>
+</li>
+<li class="link">
+<a href="/static/slides/cl22_oop_practice.pdf">Slides</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row itinerary-row py-2" data-type="lecture" data-date="2024-04-23">
+<div class="date col-md-2">
+Tue, Apr 23
+</div>
+<div class="plans col-md-9">
+<div class="plan Class">
+<span class="kind">CL21 </span><span class="title">Protocols and Composition</span>
+<ul class="links">
+<li class="link">
+<a href="https://youtube.com/live/RhsZWAk46Y0?feature=share">Stream / Recording</a>
+</li>
+<li class="link">
+<a href="/static/slides/cl21_protocols_composition.pdf">Slides</a>
+</li>
+</ul>
+</div>
+<div class="plan Exercise">
+<span class="kind">EX07 </span><span class="title"><a href="/exercises/ex07_compstagram.html">Compstagram (Due Tuesday 4/30)</a></span>
+</div>
+</div>
+</div>
+<div class="row itinerary-row py-2" data-type="lecture" data-date="2024-04-18">
+<div class="date col-md-2">
+Thu, Apr 18
+</div>
+<div class="plans col-md-9">
+<div class="plan Class">
+<span class="kind">CL20 </span><span class="title">Constructors and Magic Methods</span>
+<ul class="links">
+<li class="link">
+<a href="https://youtube.com/live/htLwX-TXcAs?feature=share">Stream / Recording</a>
+</li>
+<li class="link">
+<a href="/static/slides/cl20_constructors.pdf">Slides</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row itinerary-row py-2" data-type="lecture" data-date="2024-04-16">
+<div class="date col-md-2">
+Tue, Apr 16
+</div>
+<div class="plans col-md-9">
+<div class="plan Class">
+<span class="kind">CL19 </span><span class="title">Object-oriented Programming 101</span>
+<ul class="links">
+<li class="link">
+<a href="https://youtube.com/live/dRNXDtccSOQ?feature=share">Stream / Recording</a>
+</li>
+<li class="link">
+<a href="/static/slides/cl19_oop.pdf">Slides</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row itinerary-row py-2" data-type="lecture" data-date="2024-04-11">
+<div class="date col-md-2">
+Thu, Apr 11
+</div>
+<div class="plans col-md-9">
+<div class="plan Quiz">
+<span class="kind">QZ03 </span><span class="title">Quiz 3</span>
+<ul class="links">
+<li class="link">
+<a href="/static/practice/qz03-practice.pdf">Practice Quiz</a>
+</li>
+<li class="link">
+<a href="/static/practice/qz03-practice-key.pdf">Practice Quiz - Key</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row itinerary-row py-2" data-type="lecture" data-date="2024-04-09">
+<div class="date col-md-2">
+Tue, Apr 9
+</div>
+<div class="plans col-md-9">
+<div class="plan Class">
+<span class="kind">CL18 </span><span class="title">Higher-order Practice and Iterables / for..in Loops (Due Thursday 4/11)</span>
+<ul class="links">
+<li class="link">
+<a href="https://youtube.com/live/5ANcDlK7GAU?feature=share">Stream / Recording</a>
+</li>
+<li class="link">
+<a href="/static/slides/cl18_iterator_for_in.pdf">Slides</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row itinerary-row py-2" data-type="lecture" data-date="2024-04-06">
+<div class="date col-md-2">
+Sat, Apr 6
+</div>
+<div class="plans col-md-9">
+<div class="plan Exercise">
+<span class="kind">EX06 </span><span class="title"><a href="/exercises/ex06_benchmarking.html">Benchmarking Time Complexity</a></span>
+</div>
+</div>
+</div>
+<div class="row itinerary-row py-2" data-type="lecture" data-date="2024-04-04">
+<div class="date col-md-2">
+Thu, Apr 4
+</div>
+<div class="plans col-md-9">
+<div class="plan Class">
+<span class="kind">CL17 </span><span class="title">The Reduce Algorithm (Due Saturday 4/6)</span>
+<ul class="links">
+<li class="link">
+<a href="https://www.gradescope.com">Assignment on Gradescope</a>
+</li>
+</ul>
+</div>
+<div class="plan Lesson">
+<span class="kind">LS09 </span><span class="title">Jupyter Notebooks 101 (Due Monday 4/8)</span>
+<ul class="links">
+<li class="link">
+<a href="https://www.youtube.com/watch?v=HJgX1WWC26A">Lesson</a>
+</li>
+<li class="link">
+<a href="https://www.gradescope.com">Responses on Gradescope</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row itinerary-row py-2" data-type="lecture" data-date="2024-04-02">
+<div class="date col-md-2">
+Tue, Apr 2
+</div>
+<div class="plans col-md-9">
+<div class="plan Class">
+<span class="kind">CL16 </span><span class="title">Generic Types and Filter</span>
+<ul class="links">
+<li class="link">
+<a href="https://youtube.com/live/MbG3dkwKEN4?feature=share">Recording</a>
+</li>
+<li class="link">
+<a href="/static/slides/cl16_generic_types_filter.pdf">Slides</a>
+</li>
+</ul>
+</div>
+<div class="plan Reading">
+<span class="kind">RD01 </span><span class="title">Reading: Weapons of Math Destruction (Due Friday 4/19)</span>
+<ul class="links">
+<li class="link">
+<a href="https://gradescope.com">See Gradescope</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row itinerary-row py-2" data-type="lecture" data-date="2024-03-26">
+<div class="date col-md-2">
+Tue, Mar 26
+</div>
+<div class="plans col-md-9">
+<div class="plan Class">
+<span class="kind">CL15 </span><span class="title">Callable Function Type and Higher-order Functions</span>
+<ul class="links">
+<li class="link">
+<a href="https://youtube.com/live/48KRXtf3GiY?feature=share">Recording</a>
+</li>
+<li class="link">
+<a href="/static/slides/cl15_function_types.pdf">Slides</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row itinerary-row py-2" data-type="lecture" data-date="2024-03-21">
+<div class="date col-md-2">
+Thu, Mar 21
+</div>
+<div class="plans col-md-9">
+<div class="plan Class">
+<span class="kind">CL14 </span><span class="title">Time Complexity 101 and Imports</span>
+<ul class="links">
+<li class="link">
+<a href="https://youtube.com/live/tBgKOVPf804?feature=share">Recording</a>
+</li>
+<li class="link">
+<a href="/static/slides/cl14_time_complexity_imports.pdf">Slides</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row itinerary-row py-2" data-type="lecture" data-date="2024-03-19">
+<div class="date col-md-2">
+Tue, Mar 19
+</div>
+<div class="plans col-md-9">
+<div class="plan Class">
+<span class="kind">CL13 </span><span class="title">Sets and Dictionaries</span>
+<ul class="links">
+<li class="link">
+<a href="https://youtube.com/live/k103LxdtYio">Recording</a>
+</li>
+<li class="link">
+<a href="/static/slides/cl13_sets_dicts.pdf">Slides</a>
+</li>
+</ul>
+</div>
+<div class="plan Exercise">
+<span class="kind">EX05 </span><span class="title"><a href="/exercises/ex05_dict_functions.html">Dictionary and Set Functions (Due Tuesday 3/26)</a></span>
+</div>
+<div class="plan Reading">
+<span class="kind">RD00 </span><span class="title">Reading: Ethical Algorithms (Due Friday 3/29)</span>
+<ul class="links">
+<li class="link">
+<a href="https://gradescope.com">See Gradescope</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row itinerary-row py-2" data-type="lecture" data-date="2024-03-07">
+<div class="date col-md-2">
+Thu, Mar 7
+</div>
+<div class="plans col-md-9">
+<div class="plan Quiz">
+<span class="kind">QZ02 </span><span class="title">Quiz 2</span>
+<ul class="links">
+<li class="link">
+<a href="/static/practice/qz02-practice.pdf">Practice Quiz</a>
+</li>
+<li class="link">
+<a href="/static/practice/qz02-practice-key.pdf">Practice Quiz Key</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row itinerary-row py-2" data-type="lecture" data-date="2024-03-05">
+<div class="date col-md-2">
+Tue, Mar 5
+</div>
+<div class="plans col-md-9">
+<div class="plan Class">
+<span class="kind">CL12 </span><span class="title">Nested Loops and Lists</span>
+<ul class="links">
+<li class="link">
+<a href="https://youtube.com/live/Y78BqH3SmaA?feature=share">Recording</a>
+</li>
+<li class="link">
+<a href="/static/slides/cl12_nested_loops_lists.pdf">Slides</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row itinerary-row py-2" data-type="lecture" data-date="2024-03-03">
+<div class="date col-md-2">
+Sun, Mar 3
+</div>
+<div class="plans col-md-9">
+<div class="plan Exercise">
+<span class="kind">EX04 </span><span class="title"><a href="/exercises/ex04_list_utils.html">List Utils (Due Tuesday 3/19)</a></span>
+</div>
+</div>
+</div>
+<div class="row itinerary-row py-2" data-type="lecture" data-date="2024-02-29">
+<div class="date col-md-2">
+Thu, Feb 29
+</div>
+<div class="plans col-md-9">
+<div class="plan Class">
+<span class="kind">CL11 </span><span class="title">Writing Automated Tests for Functions</span>
+<ul class="links">
+<li class="link">
+<a href="https://youtube.com/live/hSLmn_tCOsQ">Recording</a>
+</li>
+<li class="link">
+<a href="/static/slides/cl11_testing.pdf">Slides</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row itinerary-row py-2" data-type="lecture" data-date="2024-02-27">
+<div class="date col-md-2">
+Tue, Feb 27
+</div>
+<div class="plans col-md-9">
+<div class="plan Class">
+<span class="kind">CL10 </span><span class="title">Lists and Mutability</span>
+<ul class="links">
+<li class="link">
+<a href="https://youtube.com/live/DBg2UgiRJjo">Recording</a>
+</li>
+<li class="link">
+<a href="/static/slides/cl10_lists.pdf">Slides</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row itinerary-row py-2" data-type="lecture" data-date="2024-02-22">
+<div class="date col-md-2">
+Thu, Feb 22
+</div>
+<div class="plans col-md-9">
+<div class="plan Class">
+<span class="kind">CL09 </span><span class="title">Practice with while Loops</span>
+<ul class="links">
+<li class="link">
+<a href="https://youtube.com/live/aFkEo-3URyU?feature=share">Recording</a>
+</li>
+<li class="link">
+<a href="/static/slides/cl09_practice_while.pdf">Slides</a>
+</li>
+</ul>
+</div>
+<div class="plan Exercise">
+<span class="kind">EX03 </span><span class="title"><a href="/exercises/ex03_wordle.html">Wordle (Due Friday 3/1)</a></span>
+</div>
+</div>
+</div>
+<div class="row itinerary-row py-2" data-type="lecture" data-date="2024-02-20">
+<div class="date col-md-2">
+Tue, Feb 20
+</div>
+<div class="plans col-md-9">
+<div class="plan Class">
+<span class="kind">CL08 </span><span class="title">Variables and while Loops</span>
+<ul class="links">
+<li class="link">
+<a href="https://youtube.com/live/imdKkz271fs?feature=share">Recording</a>
+</li>
+<li class="link">
+<a href="/static/slides/cl08_variables_while.pdf">Slides</a>
+</li>
+</ul>
+</div>
+<div class="plan Lesson">
+<span class="kind">LS08 </span><span class="title"><a href="/lessons/variables.html">Variables and While (Due Wednesday 2/21)</a></span>
+</div>
+</div>
+</div>
+<div class="row itinerary-row py-2" data-type="lecture" data-date="2024-02-15">
+<div class="date col-md-2">
+Thu, Feb 15
+</div>
+<div class="plans col-md-9">
+<div class="plan Quiz">
+<span class="kind">QZ01 </span><span class="title">Quiz 1</span>
+<ul class="links">
+<li class="link">
+<a href="/static/practice/qz01-practice.pdf">Practice Quiz</a>
+</li>
+<li class="link">
+<a href="/static/practice/qz01-practice-key.pdf">Practice Quiz - Key</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row itinerary-row py-2" data-type="lecture" data-date="2024-02-08">
+<div class="date col-md-2">
+Thu, Feb 8
+</div>
+<div class="plans col-md-9">
+<div class="plan Class">
+<span class="kind">CL07 </span><span class="title">Recursion, Positional Arguments, Default Parameters</span>
+<ul class="links">
+<li class="link">
+<a href="https://youtube.com/live/W-WKLaPvA78?feature=share">Recording</a>
+</li>
+<li class="link">
+<a href="/static/slides/cl07_recursion.pdf">Slides</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row itinerary-row py-2" data-type="lecture" data-date="2024-02-06">
+<div class="date col-md-2">
+Tue, Feb 6
+</div>
+<div class="plans col-md-9">
+<div class="plan Class">
+<span class="kind">CL06 </span><span class="title">elif, Constants, Heap IDs</span>
+<ul class="links">
+<li class="link">
+<a href="https://youtube.com/live/Agzs3Y-0AXg?feature=share">Recording</a>
+</li>
+<li class="link">
+<a href="/static/slides/cl06_recursion.pdf">Slides</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row itinerary-row py-2" data-type="lecture" data-date="2024-02-04">
+<div class="date col-md-2">
+Sun, Feb 4
+</div>
+<div class="plans col-md-9">
+<div class="plan Exercise">
+<span class="kind">EX02 </span><span class="title"><a href="/exercises/ex02_grade_calculator.html">Grade Calculator (Due Wednesday 2/14)</a></span>
+</div>
+</div>
+</div>
+<div class="row itinerary-row py-2" data-type="lecture" data-date="2024-02-01">
+<div class="date col-md-2">
+Thu, Feb 1
+</div>
+<div class="plans col-md-9">
+<div class="plan Class">
+<span class="kind">CL05 </span><span class="title">Practice with Conditionals</span>
+<ul class="links">
+<li class="link">
+<a href="https://youtube.com/live/DGIrKdirmNY?feature=share">Recording</a>
+</li>
+<li class="link">
+<a href="/static/slides/cl05_conditionals.pdf">Slides</a>
+</li>
+</ul>
+</div>
+<div class="plan Lesson">
+<span class="kind">LS07 </span><span class="title"><a href="https://www.gradescope.com">Practice Diagrams (Due Sunday 2/4)</a></span>
+</div>
+</div>
+</div>
+<div class="row itinerary-row py-2" data-type="lecture" data-date="2024-01-30">
+<div class="date col-md-2">
+Tue, Jan 30
+</div>
+<div class="plans col-md-9">
+<div class="plan Class">
+<span class="kind">CL04 </span><span class="title">Relational, Logical Operators and Conditional Control Flow</span>
+<ul class="links">
+<li class="link">
+<a href="https://youtube.com/live/l8KnGXchq9c?feature=share">Recording</a>
+</li>
+<li class="link">
+<a href="/static/slides/cl04_logic_and_conditionals.pdf">Slides</a>
+</li>
+</ul>
+</div>
+<div class="plan Lesson">
+<span class="kind">LS06 </span><span class="title">LS06 - Unicode, Emoji, Escape Sequences, and f-Strings Reading (Due Wednesday 1/31)</span>
+<ul class="links">
+<li class="link">
+<a href="/lessons/strings.html">Text</a>
+</li>
+<li class="link">
+<a href="https://www.gradescope.com/">Questions</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row itinerary-row py-2" data-type="lecture" data-date="2024-01-25">
+<div class="date col-md-2">
+Thu, Jan 25
+</div>
+<div class="plans col-md-9">
+<div class="plan Quiz">
+<span class="kind">QZ00 </span><span class="title">Quiz 0</span>
+<ul class="links">
+<li class="link">
+<a href="/resources/quiz-expectations.html">Quiz Expectations</a>
+</li>
+<li class="link">
+<a href="/static/practice/qz00-practice.pdf">Practice Quiz</a>
+</li>
+<li class="link">
+<a href="/static/practice/qz00-practice-key.pdf">Practice Quiz (Key)</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row itinerary-row py-2" data-type="lecture" data-date="2024-01-23">
+<div class="date col-md-2">
+Tue, Jan 23
+</div>
+<div class="plans col-md-9">
+<div class="plan Class">
+<span class="kind">CL03 </span><span class="title">Practice with Diagrams</span>
+<ul class="links">
+<li class="link">
+<a href="https://youtube.com/live/zYZ8hR-K1ss?feature=share">Recording</a>
+</li>
+<li class="link">
+<a href="/static/slides/cl03_diagram_practice.pdf">Slides</a>
+</li>
+<li class="link">
+<a href="/resources/quiz-expectations.html">Quiz 0 Expectations</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row itinerary-row py-2" data-type="lecture" data-date="2024-01-21">
+<div class="date col-md-2">
+Sun, Jan 21
+</div>
+<div class="plans col-md-9">
+<div class="plan Exercise">
+<span class="kind">EX01 </span><span class="title"><a href="/exercises/ex01_tea_party_planner.html">Tea Party Planner (Due Monday 1/29)</a></span>
+</div>
+</div>
+</div>
+<div class="row itinerary-row py-2" data-type="lecture" data-date="2024-01-19">
+<div class="date col-md-2">
+Fri, Jan 19
+</div>
+<div class="plans col-md-9">
+<div class="plan Lesson">
+<span class="kind">LS04 </span><span class="title"><a href="https://www.gradescope.com/">EX00 Reflection (Due Monday 1/22)</a></span>
+</div>
+<div class="plan Lesson">
+<span class="kind">LS05 </span><span class="title"><a href="https://www.gradescope.com/">Environment Diagram Practice (Due Monday 1/22)</a></span>
+</div>
+</div>
+</div>
+<div class="row itinerary-row py-2" data-type="lecture" data-date="2024-01-18">
+<div class="date col-md-2">
+Thu, Jan 18
+</div>
+<div class="plans col-md-9">
+<div class="plan Class">
+<span class="kind">CL02 </span><span class="title">Practice with Functions</span>
+<ul class="links">
+<li class="link">
+<a href="https://youtube.com/live/iuE1EGhRyHg">Recording</a>
+</li>
+<li class="link">
+<a href="/static/slides/cl02_functions.pdf">Slides</a>
+</li>
+<li class="link">
+<a href="/static/slides/env_diagrams_v0.pdf">Diagram Rules v0</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row itinerary-row py-2" data-type="lecture" data-date="2024-01-16">
+<div class="date col-md-2">
+Tue, Jan 16
+</div>
+<div class="plans col-md-9">
+<div class="plan Class">
+<span class="kind">CL01 </span><span class="title">Practice Types &amp; Expressions. Intro to Functions.</span>
+<ul class="links">
+<li class="link">
+<a href="https://youtube.com/live/Py_t9DChqmM">Lecture Recording</a>
+</li>
+<li class="link">
+<a href="/static/slides/cl01_types_expressions_functions.pdf">Slides</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row itinerary-row py-2" data-type="lecture" data-date="2024-01-14">
+<div class="date col-md-2">
+Sun, Jan 14
+</div>
+<div class="plans col-md-9">
+<div class="plan Exercise">
+<span class="kind">EX00 </span><span class="title"><a href="/exercises/ex00_hello_campers.html">Hello World (Due Thursday 1/18)</a></span>
+</div>
+</div>
+</div>
+<div class="row itinerary-row py-2" data-type="lecture" data-date="2024-01-11">
+<div class="date col-md-2">
+Thu, Jan 11
+</div>
+<div class="plans col-md-9">
+<div class="plan Class">
+<span class="kind">CL00 </span><span class="title"><a href="https://youtube.com/live/FAM_8MWecDU">Welcome to COMP110!</a></span>
+</div>
+<div class="plan Lesson">
+<span class="kind">LS00 </span><span class="title">Syllabus Familiarity (Due Friday 1/12)</span>
+<ul class="links">
+<li class="link">
+<a href="/resources/syllabus.html">1. Read the Syllabus</a>
+</li>
+<li class="link">
+<a href="/resources/quiz-expectations.html">2. Read Quiz Expectations</a>
+</li>
+<li class="link">
+<a href="https://www.gradescope.com/">3. Complete Lesson 01 Responses on Gradescope</a>
+</li>
+</ul>
+</div>
+<div class="plan Lesson">
+<span class="kind">LS01 </span><span class="title">Software Setup (Due Friday 1/12)</span>
+<ul class="links">
+<li class="link">
+<a href="/resources/setup/os-update.html">Software Setup (1/3)</a>
+</li>
+<li class="link">
+<a href="/resources/setup/software.html">Software Setup (2/3)</a>
+</li>
+<li class="link">
+<a href="/resources/setup/workspace.html">Software Setup (3/3)</a>
+</li>
+</ul>
+</div>
+<div class="plan Lesson">
+<span class="kind">LS02 </span><span class="title"><a href="/lessons/objects-data-types.html">Objects and Data Types (Due Monday 1/15)</a></span>
+</div>
+<div class="plan Lesson">
+<span class="kind">LS03 </span><span class="title"><a href="/lessons/expressions.html">Expressions (Due Monday 1/15)</a></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+      </div>
+  </div>
+    </div>
+    </div>
+  <div class='link-page mt-3 container'>
+    <footer>
+      <h3 class="text-center align-middle footer-text">&copy; 2024 <a href="https://krisjordan.com">Kris Jordan</a>
+        - <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSenaJ2uZ_n2FfAb2PWL6YPG4AUT-G2-xVJP6HIwMr6cd6nSYA/viewform?usp=sf_link">Feedback
+          Form</a>
+        - Made with 💛 in <a href="https://cs.unc.edu/">Chapel Hill</a></h3>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+
+  <!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+</body>
+
+</html>
