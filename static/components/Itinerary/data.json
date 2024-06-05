@@ -1,162 +1,15 @@
 {
-    "2024-01-10": [],
-    "2024-01-11": [
-        {
-            "kind": "CL",
-            "n": 0,
-            "title": "Welcome to COMP110!",
-            "date": "2024-01-11",
-            "deadline": "None",
-            "links": {
-                "": "https://youtube.com/live/FAM_8MWecDU"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 0,
-            "title": "Syllabus Familiarity (Due Friday 1/12)",
-            "date": "2024-01-11",
-            "deadline": "2024-01-12",
-            "links": {
-                "1. Read the Syllabus": "/resources/syllabus.html",
-                "2. Read Quiz Expectations": "/resources/quiz-expectations.html",
-                "3. Complete Lesson 01 Responses on Gradescope": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 1,
-            "title": "Software Setup (Due Friday 1/12)",
-            "date": "2024-01-11",
-            "deadline": "2024-01-12",
-            "links": {
-                "Software Setup (1/3)": "/resources/setup/os-update.html",
-                "Software Setup (2/3)": "/resources/setup/software.html",
-                "Software Setup (3/3)": "/resources/setup/workspace.html"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 2,
-            "title": "Objects and Data Types (Due Monday 1/15)",
-            "date": "2024-01-11",
-            "deadline": "2024-01-15",
-            "links": {
-                "": "/lessons/objects-data-types.html"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 3,
-            "title": "Expressions (Due Monday 1/15)",
-            "date": "2024-01-11",
-            "deadline": "2024-01-15",
-            "links": {
-                "": "/lessons/expressions.html"
-            }
-        }
-    ],
-    "2024-01-12": [],
-    "2024-01-13": [],
-    "2024-01-14": [
-        {
-            "kind": "EX",
-            "n": 0,
-            "title": "Hello World (Due Thursday 1/18)",
-            "date": "2024-01-14",
-            "deadline": "2024-01-18",
-            "links": {
-                "": "/exercises/ex00_hello_campers.html"
-            }
-        }
-    ],
-    "2024-01-15": [],
-    "2024-01-16": [
-        {
-            "kind": "CL",
-            "n": 1,
-            "title": "Practice Types & Expressions. Intro to Functions.",
-            "date": "2024-01-16",
-            "deadline": "None",
-            "links": {
-                "Lecture Recording": "https://youtube.com/live/Py_t9DChqmM",
-                "Slides": "/static/slides/cl01_types_expressions_functions.pdf"
-            }
-        }
-    ],
-    "2024-01-17": [],
-    "2024-01-18": [
-        {
-            "kind": "CL",
-            "n": 2,
-            "title": "Practice with Functions",
-            "date": "2024-01-18",
-            "deadline": "None",
-            "links": {
-                "Recording": "https://youtube.com/live/iuE1EGhRyHg",
-                "Slides": "/static/slides/cl02_functions.pdf",
-                "Diagram Rules v0": "/static/slides/env_diagrams_v0.pdf"
-            }
-        }
-    ],
-    "2024-01-19": [
-        {
-            "kind": "LS",
-            "n": 4,
-            "title": "EX00 Reflection (Due Monday 1/22)",
-            "date": "2024-01-19",
-            "deadline": "2024-01-22",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 5,
-            "title": "Environment Diagram Practice (Due Monday 1/22)",
-            "date": "2024-01-19",
-            "deadline": "2024-01-22",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        }
-    ],
-    "2024-01-20": [],
-    "2024-01-21": [
-        {
-            "kind": "EX",
-            "n": 1,
-            "title": "Tea Party Planner (Due Monday 1/29)",
-            "date": "2024-01-21",
-            "deadline": "2024-01-29",
-            "links": {
-                "": "/exercises/ex01_tea_party_planner.html"
-            }
-        }
-    ],
-    "2024-01-22": [],
-    "2024-01-23": [
-        {
-            "kind": "CL",
-            "n": 3,
-            "title": "Practice with Diagrams",
-            "date": "2024-01-23",
-            "deadline": "None",
-            "links": {
-                "Recording": "https://youtube.com/live/zYZ8hR-K1ss?feature=share",
-                "Slides": "/static/slides/cl03_diagram_practice.pdf",
-                "Quiz 0 Expectations": "/resources/quiz-expectations.html"
-            }
-        }
-    ],
-    "2024-01-24": [],
-    "2024-01-25": [
+    "2024-06-24": [],
+    "2024-06-25": [],
+    "2024-06-26": [],
+    "2024-06-27": [],
+    "2024-06-28": [
         {
             "kind": "QZ",
             "n": 0,
             "title": "Quiz 0",
-            "date": "2024-01-25",
-            "deadline": "2024-01-25",
+            "date": "2024-06-28",
+            "deadline": "2024-06-28",
             "links": {
                 "Quiz Expectations": "/resources/quiz-expectations.html",
                 "Practice Quiz": "/static/practice/qz00-practice.pdf",
@@ -164,522 +17,77 @@
             }
         }
     ],
-    "2024-01-26": [],
-    "2024-01-27": [],
-    "2024-01-28": [],
-    "2024-01-29": [],
-    "2024-01-30": [
-        {
-            "kind": "CL",
-            "n": 4,
-            "title": "Relational, Logical Operators and Conditional Control Flow",
-            "date": "2024-01-30",
-            "deadline": "None",
-            "links": {
-                "Recording": "https://youtube.com/live/l8KnGXchq9c?feature=share",
-                "Slides": "/static/slides/cl04_logic_and_conditionals.pdf"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 6,
-            "title": "LS06 - Unicode, Emoji, Escape Sequences, and f-Strings Reading (Due Wednesday 1/31)",
-            "date": "2024-01-30",
-            "deadline": "2024-01-31",
-            "links": {
-                "Text": "/lessons/strings.html",
-                "Questions": "https://www.gradescope.com/"
-            }
-        }
-    ],
-    "2024-01-31": [],
-    "2024-02-01": [
-        {
-            "kind": "CL",
-            "n": 5,
-            "title": "Practice with Conditionals",
-            "date": "2024-02-01",
-            "deadline": "None",
-            "links": {
-                "Recording": "https://youtube.com/live/DGIrKdirmNY?feature=share",
-                "Slides": "/static/slides/cl05_conditionals.pdf"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 7,
-            "title": "Practice Diagrams (Due Sunday 2/4)",
-            "date": "2024-02-01",
-            "deadline": "2024-02-04",
-            "links": {
-                "": "https://www.gradescope.com"
-            }
-        }
-    ],
-    "2024-02-02": [],
-    "2024-02-03": [],
-    "2024-02-04": [
-        {
-            "kind": "EX",
-            "n": 2,
-            "title": "Grade Calculator (Due Wednesday 2/14)",
-            "date": "2024-02-04",
-            "deadline": "2024-02-14",
-            "links": {
-                "": "/exercises/ex02_grade_calculator.html"
-            }
-        }
-    ],
-    "2024-02-05": [],
-    "2024-02-06": [
-        {
-            "kind": "CL",
-            "n": 6,
-            "title": "elif, Constants, Heap IDs",
-            "date": "2024-02-06",
-            "deadline": "None",
-            "links": {
-                "Recording": "https://youtube.com/live/Agzs3Y-0AXg?feature=share",
-                "Slides": "/static/slides/cl06_recursion.pdf"
-            }
-        }
-    ],
-    "2024-02-07": [],
-    "2024-02-08": [
-        {
-            "kind": "CL",
-            "n": 7,
-            "title": "Recursion, Positional Arguments, Default Parameters",
-            "date": "2024-02-08",
-            "deadline": "None",
-            "links": {
-                "Recording": "https://youtube.com/live/W-WKLaPvA78?feature=share",
-                "Slides": "/static/slides/cl07_recursion.pdf"
-            }
-        }
-    ],
-    "2024-02-09": [],
-    "2024-02-10": [],
-    "2024-02-11": [],
-    "2024-02-12": [],
-    "2024-02-13": [],
-    "2024-02-14": [],
-    "2024-02-15": [
+    "2024-06-29": [],
+    "2024-06-30": [],
+    "2024-07-01": [],
+    "2024-07-02": [],
+    "2024-07-03": [],
+    "2024-07-04": [],
+    "2024-07-05": [],
+    "2024-07-06": [],
+    "2024-07-07": [],
+    "2024-07-08": [
         {
             "kind": "QZ",
             "n": 1,
             "title": "Quiz 1",
-            "date": "2024-02-15",
-            "deadline": "2024-02-15",
+            "date": "2024-07-08",
+            "deadline": "2024-07-08",
             "links": {
                 "Practice Quiz": "/static/practice/qz01-practice.pdf",
                 "Practice Quiz - Key": "/static/practice/qz01-practice-key.pdf"
             }
         }
     ],
-    "2024-02-16": [],
-    "2024-02-17": [],
-    "2024-02-18": [],
-    "2024-02-19": [],
-    "2024-02-20": [
-        {
-            "kind": "CL",
-            "n": 8,
-            "title": "Variables and while Loops",
-            "date": "2024-02-20",
-            "deadline": "None",
-            "links": {
-                "Recording": "https://youtube.com/live/imdKkz271fs?feature=share",
-                "Slides": "/static/slides/cl08_variables_while.pdf"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 8,
-            "title": "Variables and While (Due Wednesday 2/21)",
-            "date": "2024-02-20",
-            "deadline": "2024-02-21",
-            "links": {
-                "": "/lessons/variables.html"
-            }
-        }
-    ],
-    "2024-02-21": [],
-    "2024-02-22": [
-        {
-            "kind": "CL",
-            "n": 9,
-            "title": "Practice with while Loops",
-            "date": "2024-02-22",
-            "deadline": "None",
-            "links": {
-                "Recording": "https://youtube.com/live/aFkEo-3URyU?feature=share",
-                "Slides": "/static/slides/cl09_practice_while.pdf"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 3,
-            "title": "Wordle (Due Friday 3/1)",
-            "date": "2024-02-22",
-            "deadline": "2024-03-01",
-            "links": {
-                "": "/exercises/ex03_wordle.html"
-            }
-        }
-    ],
-    "2024-02-23": [],
-    "2024-02-24": [],
-    "2024-02-25": [],
-    "2024-02-26": [],
-    "2024-02-27": [
-        {
-            "kind": "CL",
-            "n": 10,
-            "title": "Lists and Mutability",
-            "date": "2024-02-27",
-            "deadline": "None",
-            "links": {
-                "Recording": "https://youtube.com/live/DBg2UgiRJjo",
-                "Slides": "/static/slides/cl10_lists.pdf"
-            }
-        }
-    ],
-    "2024-02-28": [],
-    "2024-02-29": [
-        {
-            "kind": "CL",
-            "n": 11,
-            "title": "Writing Automated Tests for Functions",
-            "date": "2024-02-29",
-            "deadline": "None",
-            "links": {
-                "Recording": "https://youtube.com/live/hSLmn_tCOsQ",
-                "Slides": "/static/slides/cl11_testing.pdf"
-            }
-        }
-    ],
-    "2024-03-01": [],
-    "2024-03-02": [],
-    "2024-03-03": [
-        {
-            "kind": "EX",
-            "n": 4,
-            "title": "List Utils (Due Tuesday 3/19)",
-            "date": "2024-03-03",
-            "deadline": "2024-03-19",
-            "links": {
-                "": "/exercises/ex04_list_utils.html"
-            }
-        }
-    ],
-    "2024-03-04": [],
-    "2024-03-05": [
-        {
-            "kind": "CL",
-            "n": 12,
-            "title": "Nested Loops and Lists",
-            "date": "2024-03-05",
-            "deadline": "None",
-            "links": {
-                "Recording": "https://youtube.com/live/Y78BqH3SmaA?feature=share",
-                "Slides": "/static/slides/cl12_nested_loops_lists.pdf"
-            }
-        }
-    ],
-    "2024-03-06": [],
-    "2024-03-07": [
+    "2024-07-09": [],
+    "2024-07-10": [],
+    "2024-07-11": [],
+    "2024-07-12": [],
+    "2024-07-13": [],
+    "2024-07-14": [],
+    "2024-07-15": [],
+    "2024-07-16": [
         {
             "kind": "QZ",
             "n": 2,
             "title": "Quiz 2",
-            "date": "2024-03-07",
-            "deadline": "2024-03-07",
+            "date": "2024-07-16",
+            "deadline": "2024-07-16",
             "links": {
                 "Practice Quiz": "/static/practice/qz02-practice.pdf",
                 "Practice Quiz Key": "/static/practice/qz02-practice-key.pdf"
             }
         }
     ],
-    "2024-03-08": [],
-    "2024-03-09": [],
-    "2024-03-10": [],
-    "2024-03-11": [],
-    "2024-03-12": [],
-    "2024-03-13": [],
-    "2024-03-14": [],
-    "2024-03-15": [],
-    "2024-03-16": [],
-    "2024-03-17": [],
-    "2024-03-18": [],
-    "2024-03-19": [
-        {
-            "kind": "CL",
-            "n": 13,
-            "title": "Sets and Dictionaries",
-            "date": "2024-03-19",
-            "deadline": "None",
-            "links": {
-                "Recording": "https://youtube.com/live/k103LxdtYio",
-                "Slides": "/static/slides/cl13_sets_dicts.pdf"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 5,
-            "title": "Dictionary and Set Functions (Due Tuesday 3/26)",
-            "date": "2024-03-19",
-            "deadline": "2024-03-26",
-            "links": {
-                "": "/exercises/ex05_dict_functions.html"
-            }
-        },
-        {
-            "kind": "RD",
-            "n": 0,
-            "title": "Reading: Ethical Algorithms (Due Friday 3/29)",
-            "date": "2024-03-19",
-            "deadline": "2024-03-29",
-            "links": {
-                "See Gradescope": "https://gradescope.com"
-            }
-        }
-    ],
-    "2024-03-20": [],
-    "2024-03-21": [
-        {
-            "kind": "CL",
-            "n": 14,
-            "title": "Time Complexity 101 and Imports",
-            "date": "2024-03-21",
-            "deadline": "None",
-            "links": {
-                "Recording": "https://youtube.com/live/tBgKOVPf804?feature=share",
-                "Slides": "/static/slides/cl14_time_complexity_imports.pdf"
-            }
-        }
-    ],
-    "2024-03-22": [],
-    "2024-03-23": [],
-    "2024-03-24": [],
-    "2024-03-25": [],
-    "2024-03-26": [
-        {
-            "kind": "CL",
-            "n": 15,
-            "title": "Callable Function Type and Higher-order Functions",
-            "date": "2024-03-26",
-            "deadline": "None",
-            "links": {
-                "Recording": "https://youtube.com/live/48KRXtf3GiY?feature=share",
-                "Slides": "/static/slides/cl15_function_types.pdf"
-            }
-        }
-    ],
-    "2024-03-27": [],
-    "2024-03-28": [],
-    "2024-03-29": [],
-    "2024-03-30": [],
-    "2024-03-31": [],
-    "2024-04-01": [],
-    "2024-04-02": [
-        {
-            "kind": "CL",
-            "n": 16,
-            "title": "Generic Types and Filter",
-            "date": "2024-04-02",
-            "deadline": "None",
-            "links": {
-                "Recording": "https://youtube.com/live/MbG3dkwKEN4?feature=share",
-                "Slides": "/static/slides/cl16_generic_types_filter.pdf"
-            }
-        },
-        {
-            "kind": "RD",
-            "n": 1,
-            "title": "Reading: Weapons of Math Destruction (Due Friday 4/19)",
-            "date": "2024-04-02",
-            "deadline": "2024-04-19",
-            "links": {
-                "See Gradescope": "https://gradescope.com"
-            }
-        }
-    ],
-    "2024-04-03": [],
-    "2024-04-04": [
-        {
-            "kind": "CL",
-            "n": 17,
-            "title": "The Reduce Algorithm (Due Saturday 4/6)",
-            "date": "2024-04-04",
-            "deadline": "2024-04-06",
-            "links": {
-                "Assignment on Gradescope": "https://www.gradescope.com"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 9,
-            "title": "Jupyter Notebooks 101 (Due Monday 4/8)",
-            "date": "2024-04-04",
-            "deadline": "2024-04-08",
-            "links": {
-                "Lesson": "https://www.youtube.com/watch?v=HJgX1WWC26A",
-                "Responses on Gradescope": "https://www.gradescope.com"
-            }
-        }
-    ],
-    "2024-04-05": [],
-    "2024-04-06": [
-        {
-            "kind": "EX",
-            "n": 6,
-            "title": "Benchmarking Time Complexity",
-            "date": "2024-04-06",
-            "deadline": "None",
-            "links": {
-                "": "/exercises/ex06_benchmarking.html"
-            }
-        }
-    ],
-    "2024-04-07": [],
-    "2024-04-08": [],
-    "2024-04-09": [
-        {
-            "kind": "CL",
-            "n": 18,
-            "title": "Higher-order Practice and Iterables / for..in Loops (Due Thursday 4/11)",
-            "date": "2024-04-09",
-            "deadline": "2024-04-11",
-            "links": {
-                "Stream / Recording": "https://youtube.com/live/5ANcDlK7GAU?feature=share",
-                "Slides": "/static/slides/cl18_iterator_for_in.pdf"
-            }
-        }
-    ],
-    "2024-04-10": [],
-    "2024-04-11": [
+    "2024-07-17": [],
+    "2024-07-18": [],
+    "2024-07-19": [],
+    "2024-07-20": [],
+    "2024-07-21": [],
+    "2024-07-22": [],
+    "2024-07-23": [],
+    "2024-07-24": [],
+    "2024-07-25": [
         {
             "kind": "QZ",
             "n": 3,
             "title": "Quiz 3",
-            "date": "2024-04-11",
-            "deadline": "2024-04-11",
+            "date": "2024-07-25",
+            "deadline": "2024-07-25",
             "links": {
                 "Practice Quiz": "/static/practice/qz03-practice.pdf",
                 "Practice Quiz - Key": "/static/practice/qz03-practice-key.pdf"
             }
         }
     ],
-    "2024-04-12": [],
-    "2024-04-13": [],
-    "2024-04-14": [],
-    "2024-04-15": [],
-    "2024-04-16": [
-        {
-            "kind": "CL",
-            "n": 19,
-            "title": "Object-oriented Programming 101",
-            "date": "2024-04-16",
-            "deadline": "None",
-            "links": {
-                "Stream / Recording": "https://youtube.com/live/dRNXDtccSOQ?feature=share",
-                "Slides": "/static/slides/cl19_oop.pdf"
-            }
-        }
-    ],
-    "2024-04-17": [],
-    "2024-04-18": [
-        {
-            "kind": "CL",
-            "n": 20,
-            "title": "Constructors and Magic Methods",
-            "date": "2024-04-18",
-            "deadline": "None",
-            "links": {
-                "Stream / Recording": "https://youtube.com/live/htLwX-TXcAs?feature=share",
-                "Slides": "/static/slides/cl20_constructors.pdf"
-            }
-        }
-    ],
-    "2024-04-19": [],
-    "2024-04-20": [],
-    "2024-04-21": [],
-    "2024-04-22": [],
-    "2024-04-23": [
-        {
-            "kind": "CL",
-            "n": 21,
-            "title": "Protocols and Composition",
-            "date": "2024-04-23",
-            "deadline": "None",
-            "links": {
-                "Stream / Recording": "https://youtube.com/live/RhsZWAk46Y0?feature=share",
-                "Slides": "/static/slides/cl21_protocols_composition.pdf"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 7,
-            "title": "Compstagram (Due Tuesday 4/30)",
-            "date": "2024-04-23",
-            "deadline": "2024-04-30",
-            "links": {
-                "": "/exercises/ex07_compstagram.html"
-            }
-        }
-    ],
-    "2024-04-24": [],
-    "2024-04-25": [
-        {
-            "kind": "CL",
-            "n": 22,
-            "title": "OOP Practice",
-            "date": "2024-04-25",
-            "deadline": "None",
-            "links": {
-                "Lecture Recording (1st half)": "https://youtube.com/live/J1jqRug4FP8?feature=share",
-                "Cut-off Lecture (2nd half)": "https://youtu.be/Kb8jDGkUOMU",
-                "Slides": "/static/slides/cl22_oop_practice.pdf"
-            }
-        }
-    ],
-    "2024-04-26": [],
-    "2024-04-27": [],
-    "2024-04-28": [],
-    "2024-04-29": [],
-    "2024-04-30": [
-        {
-            "kind": "CL",
-            "n": 23,
-            "title": "The Joy of Programming",
-            "date": "2024-04-30",
-            "deadline": "None",
-            "links": {
-                "Lecture Recording": "https://youtube.com/live/j1g0SIGURpE?feature=share",
-                "Slides": "/static/slides/cl23_joy.pdf"
-            }
-        }
-    ],
-    "2024-05-03": [
+    "2024-07-29": [
         {
             "kind": "FN",
             "n": 0,
             "title": "Final @ 8:00AM",
-            "date": "2024-05-03",
+            "date": "2024-07-29",
             "deadline": "None",
-            "links": {
-                "QZ00 Practice": "/static/practice/qz00-practice.pdf",
-                "QZ00 Practice (Key)": "/static/practice/qz00-practice-key.pdf",
-                "QZ01 Practice": "/static/practice/qz01-practice.pdf",
-                "QZ01 Practice (Key)": "/static/practice/qz01-practice-key.pdf",
-                "QZ02 Practice": "/static/practice/qz02-practice.pdf",
-                "QZ02 Practice (Key)": "/static/practice/qz02-practice-key.pdf",
-                "QZ03 Practice": "/static/practice/qz03-practice.pdf",
-                "QZ03 Practice (Key)": "/static/practice/qz03-practice-key.pdf",
-                "Final Supplement Practice": "/static/practice/fn00-practice.pdf",
-                "Final Supplement Practice (Key)": "/static/practice/fn00-practice-key.pdf"
-            }
+            "links": {}
         }
     ]
 }
