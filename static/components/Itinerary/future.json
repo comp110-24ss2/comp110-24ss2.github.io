@@ -1,8 +1,130 @@
 {
-    "2024-06-24": [],
-    "2024-06-25": [],
-    "2024-06-26": [],
-    "2024-06-27": [],
+    "2024-06-24": [
+        {
+            "kind": "CL",
+            "n": 0,
+            "title": "Welcome to COMP110!",
+            "date": "2024-06-24",
+            "deadline": "None",
+            "links": {
+                "Section 001 - 9:30am": "https://unc.zoom.us/j/93394936953",
+                "Section 002 - 11:30am": "https://unc.zoom.us/j/91574674793"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 0,
+            "title": "Syllabus Familiarity",
+            "date": "2024-06-24",
+            "deadline": "2024-06-24",
+            "links": {
+                "1. Read the Syllabus": "/resources/syllabus.html",
+                "2. Complete Lesson 00 Responses on Gradescope": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 1,
+            "title": "Software Setup",
+            "date": "2024-06-24",
+            "deadline": "2024-06-24",
+            "links": {
+                "1. OS Update": "/resources/setup/os-update.html",
+                "2. Docker, git, VS Code": "/resources/setup/software.html",
+                "3. COMP110 Workspace": "/resources/setup/workspace.html"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 0,
+            "title": "Hello World (Due Tuesday 6/25)",
+            "date": "2024-06-24",
+            "deadline": "2024-06-25",
+            "links": {
+                "": "/exercises/ex00_hello_campers.html"
+            }
+        }
+    ],
+    "2024-06-25": [
+        {
+            "kind": "LS",
+            "n": 2,
+            "title": "Objects and Data Types (Due Friday 6/28)",
+            "date": "2024-06-25",
+            "deadline": "2024-06-28",
+            "links": {
+                "": "/lessons/objects-data-types.html"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 3,
+            "title": "Expressions (Due Friday 6/28)",
+            "date": "2024-06-25",
+            "deadline": "2024-06-28",
+            "links": {
+                "": "/lessons/expressions.html"
+            }
+        },
+        {
+            "kind": "CL",
+            "n": 1,
+            "title": "Practice Types & Expressions. Intro to Functions.",
+            "date": "2024-06-25",
+            "deadline": "None",
+            "links": {
+                "Lecture Recording": "https://youtube.com/live/Py_t9DChqmM",
+                "Slides": "/static/slides/cl01_types_expressions_functions.pdf"
+            }
+        }
+    ],
+    "2024-06-26": [
+        {
+            "kind": "CL",
+            "n": 2,
+            "title": "Practice with Functions",
+            "date": "2024-06-26",
+            "deadline": "None",
+            "links": {
+                "Recording": "https://youtube.com/live/iuE1EGhRyHg",
+                "Slides": "/static/slides/cl02_functions.pdf",
+                "Diagram Rules v0": "/static/slides/env_diagrams_v0.pdf"
+            }
+        }
+    ],
+    "2024-06-27": [
+        {
+            "kind": "LS",
+            "n": 4,
+            "title": "EX00 Reflection (Due Saturday 6/29)",
+            "date": "2024-06-27",
+            "deadline": "2024-06-29",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 5,
+            "title": "Environment Diagram Practice (Due Saturday 6/29)",
+            "date": "2024-06-27",
+            "deadline": "2024-06-29",
+            "links": {
+                "": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "CL",
+            "n": 3,
+            "title": "Practice with Diagrams",
+            "date": "2024-06-27",
+            "deadline": "None",
+            "links": {
+                "Recording": "https://youtube.com/live/zYZ8hR-K1ss?feature=share",
+                "Slides": "/static/slides/cl03_diagram_practice.pdf"
+            }
+        }
+    ],
     "2024-06-28": [
         {
             "kind": "QZ",
@@ -11,13 +133,22 @@
             "date": "2024-06-28",
             "deadline": "2024-06-28",
             "links": {
-                "Quiz Expectations": "/resources/quiz-expectations.html",
-                "Practice Quiz": "/static/practice/qz00-practice.pdf",
-                "Practice Quiz (Key)": "/static/practice/qz00-practice-key.pdf"
+                "Read Quiz Expectations": "/resources/quiz-expectations.html"
             }
         }
     ],
-    "2024-06-29": [],
+    "2024-06-29": [
+        {
+            "kind": "EX",
+            "n": 1,
+            "title": "Tea Party Planner (Due Tuesday 7/2)",
+            "date": "2024-06-29",
+            "deadline": "2024-07-02",
+            "links": {
+                "": "/exercises/ex01_tea_party_planner.html"
+            }
+        }
+    ],
     "2024-06-30": [],
     "2024-07-01": [],
     "2024-07-02": [],
