@@ -5,7 +5,7 @@
             "n": 0,
             "title": "Welcome to COMP110!",
             "date": "2024-06-24",
-            "deadline": "None",
+            "deadline": "2024-06-24",
             "links": {
                 "Section 001 - 9:30am": "https://unc.zoom.us/j/93394936953",
                 "Section 002 - 11:30am": "https://unc.zoom.us/j/91574674793"
@@ -31,7 +31,8 @@
             "links": {
                 "1. OS Update": "/resources/setup/os-update.html",
                 "2. Docker, git, VS Code": "/resources/setup/software.html",
-                "3. COMP110 Workspace": "/resources/setup/workspace.html"
+                "3. COMP110 Workspace": "/resources/setup/workspace.html",
+                "4. Complete the LS01 Responses on Gradescope": "https://www.gradescope.com/"
             }
         },
         {
@@ -49,76 +50,126 @@
         {
             "kind": "LS",
             "n": 2,
-            "title": "Objects and Data Types (Due Friday 6/28)",
+            "title": "Computer Systems - Processes, Shells, Kernels, and Hardware",
             "date": "2024-06-25",
-            "deadline": "2024-06-28",
+            "deadline": "2024-06-25",
+            "links": {
+                "": "TODO"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 3,
+            "title": "Programs, Languages, and Interpreters",
+            "date": "2024-06-25",
+            "deadline": "2024-06-25",
+            "links": {
+                "": "TODO"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 4,
+            "title": "Objects and Data Types",
+            "date": "2024-06-25",
+            "deadline": "2024-06-25",
             "links": {
                 "": "/lessons/objects-data-types.html"
             }
         },
         {
             "kind": "LS",
-            "n": 3,
-            "title": "Expressions (Due Friday 6/28)",
+            "n": 5,
+            "title": "Expressions",
             "date": "2024-06-25",
-            "deadline": "2024-06-28",
+            "deadline": "2024-06-25",
             "links": {
                 "": "/lessons/expressions.html"
-            }
-        },
-        {
-            "kind": "CL",
-            "n": 1,
-            "title": "Practice Types & Expressions. Intro to Functions.",
-            "date": "2024-06-25",
-            "deadline": "None",
-            "links": {
-                "Lecture Recording": "https://youtube.com/live/Py_t9DChqmM",
-                "Slides": "/static/slides/cl01_types_expressions_functions.pdf"
             }
         }
     ],
     "2024-06-26": [
         {
-            "kind": "CL",
-            "n": 2,
-            "title": "Practice with Functions",
+            "kind": "CQ",
+            "n": 0,
+            "title": "Practice with Objects and Data Types",
             "date": "2024-06-26",
-            "deadline": "None",
+            "deadline": "2024-06-26",
             "links": {
-                "Recording": "https://youtube.com/live/iuE1EGhRyHg",
-                "Slides": "/static/slides/cl02_functions.pdf",
+                "": "TODO"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 1,
+            "title": "Practice with Expressions",
+            "date": "2024-06-26",
+            "deadline": "2024-06-26",
+            "links": {
+                "": "TODO"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 6,
+            "title": "Intro to Functions",
+            "date": "2024-06-26",
+            "deadline": "2024-06-26",
+            "links": {
+                "Lecture Recording": "https://youtube.com/live/Py_t9DChqmM",
+                "Slides": "/static/slides/cl01_types_expressions_functions.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 7,
+            "title": "Intro to Diagrams (Include Heap IDs)",
+            "date": "2024-06-26",
+            "deadline": "2024-06-26",
+            "links": {
+                "Video": "TODO",
                 "Diagram Rules v0": "/static/slides/env_diagrams_v0.pdf"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 2,
+            "title": "EX00 Reflection",
+            "date": "2024-06-26",
+            "deadline": "2024-06-26",
+            "links": {
+                "": "https://www.gradescope.com"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 1,
+            "title": "Tea Party Planner (Due Thursday 6/27)",
+            "date": "2024-06-26",
+            "deadline": "2024-06-27",
+            "links": {
+                "": "/exercises/ex01_tea_party_planner.html"
             }
         }
     ],
     "2024-06-27": [
         {
-            "kind": "LS",
-            "n": 4,
-            "title": "EX00 Reflection (Due Saturday 6/29)",
-            "date": "2024-06-27",
-            "deadline": "2024-06-29",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 5,
-            "title": "Environment Diagram Practice (Due Saturday 6/29)",
-            "date": "2024-06-27",
-            "deadline": "2024-06-29",
-            "links": {
-                "": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "CL",
+            "kind": "CQ",
             "n": 3,
+            "title": "Practice with Functions",
+            "date": "2024-06-27",
+            "deadline": "2024-06-27",
+            "links": {
+                "Recording": "https://youtube.com/live/iuE1EGhRyHg",
+                "Slides": "/static/slides/cl02_functions.pdf"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 4,
             "title": "Practice with Diagrams",
             "date": "2024-06-27",
-            "deadline": "None",
+            "deadline": "2024-06-27",
             "links": {
                 "Recording": "https://youtube.com/live/zYZ8hR-K1ss?feature=share",
                 "Slides": "/static/slides/cl03_diagram_practice.pdf"
@@ -137,80 +188,217 @@
             }
         }
     ],
-    "2024-06-29": [
+    "2024-06-29": [],
+    "2024-06-30": [],
+    "2024-07-01": [
+        {
+            "kind": "LS",
+            "n": 8,
+            "title": "Variables",
+            "date": "2024-07-01",
+            "deadline": "2024-07-01",
+            "links": {
+                "": "/lessons/variables.html"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 9,
+            "title": "Constants",
+            "date": "2024-07-01",
+            "deadline": "2024-07-01",
+            "links": {
+                "": "TODO (Combine with Variables?)"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 10,
+            "title": "Relational Operators",
+            "date": "2024-07-01",
+            "deadline": "2024-07-01",
+            "links": {
+                "Recording": "https://youtube.com/live/l8KnGXchq9c?feature=share",
+                "Slides": "/static/slides/cl04_logic_and_conditionals.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 11,
+            "title": "Conditional Control-Flow",
+            "date": "2024-07-01",
+            "deadline": "2024-07-01",
+            "links": {
+                "": "TODO"
+            }
+        },
         {
             "kind": "EX",
-            "n": 1,
-            "title": "Tea Party Planner (Due Tuesday 7/2)",
-            "date": "2024-06-29",
-            "deadline": "2024-07-02",
+            "n": 2,
+            "title": "Grade Calculator (Due Wednesday 7/3)",
+            "date": "2024-07-01",
+            "deadline": "2024-07-03",
             "links": {
-                "": "/exercises/ex01_tea_party_planner.html"
+                "": "/exercises/ex02_grade_calculator.html"
             }
         }
     ],
-    "2024-06-30": [],
-    "2024-07-01": [],
-    "2024-07-02": [],
-    "2024-07-03": [],
+    "2024-07-02": [
+        {
+            "kind": "CQ",
+            "n": 5,
+            "title": "Practice with Conditionals",
+            "date": "2024-07-02",
+            "deadline": "2024-07-02",
+            "links": {
+                "Recording": "https://youtube.com/live/DGIrKdirmNY?feature=share",
+                "Slides": "/static/slides/cl05_conditionals.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 12,
+            "title": "While",
+            "date": "2024-07-02",
+            "deadline": "2024-07-02",
+            "links": {
+                "": "/lessons/variables.html"
+            }
+        },
+        {
+            "kind": "CL",
+            "n": 1,
+            "title": "Variables and while Loops",
+            "date": "2024-07-02",
+            "deadline": "2024-07-02",
+            "links": {
+                "Recording": "https://youtube.com/live/imdKkz271fs?feature=share",
+                "Slides": "/static/slides/cl08_variables_while.pdf"
+            }
+        }
+    ],
+    "2024-07-03": [
+        {
+            "kind": "CL",
+            "n": 2,
+            "title": "elif",
+            "date": "2024-07-03",
+            "deadline": "2024-07-03",
+            "links": {
+                "Recording": "https://youtube.com/live/Agzs3Y-0AXg?feature=share",
+                "Slides": "/static/slides/cl06_recursion.pdf"
+            }
+        },
+        {
+            "kind": "CL",
+            "n": 3,
+            "title": "Practice with while Loops",
+            "date": "2024-07-03",
+            "deadline": "2024-07-03",
+            "links": {
+                "Recording": "https://youtube.com/live/aFkEo-3URyU?feature=share",
+                "Slides": "/static/slides/cl09_practice_while.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 13,
+            "title": "Practice Diagrams",
+            "date": "2024-07-03",
+            "deadline": "2024-07-03",
+            "links": {
+                "": "https://www.gradescope.com"
+            }
+        }
+    ],
     "2024-07-04": [],
-    "2024-07-05": [],
-    "2024-07-06": [],
-    "2024-07-07": [],
-    "2024-07-08": [
+    "2024-07-05": [
         {
             "kind": "QZ",
             "n": 1,
             "title": "Quiz 1",
-            "date": "2024-07-08",
-            "deadline": "2024-07-08",
+            "date": "2024-07-05",
+            "deadline": "2024-07-05",
             "links": {
                 "Practice Quiz": "/static/practice/qz01-practice.pdf",
                 "Practice Quiz - Key": "/static/practice/qz01-practice-key.pdf"
             }
+        },
+        {
+            "kind": "LS",
+            "n": 14,
+            "title": "Unicode, Emoji, Escape Sequences, and f-Strings Reading",
+            "date": "2024-07-05",
+            "deadline": "2024-07-05",
+            "links": {
+                "Text": "/lessons/strings.html",
+                "Questions": "https://www.gradescope.com/"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 3,
+            "title": "Wordle (Due Sunday 7/7)",
+            "date": "2024-07-05",
+            "deadline": "2024-07-07",
+            "links": {
+                "": "/exercises/ex03_wordle.html"
+            }
         }
     ],
-    "2024-07-09": [],
+    "2024-07-06": [],
+    "2024-07-07": [],
+    "2024-07-08": [],
+    "2024-07-09": [
+        {
+            "kind": "CL",
+            "n": 4,
+            "title": "Recursion, Positional Arguments, Default Parameters",
+            "date": "2024-07-09",
+            "deadline": "None",
+            "links": {
+                "Recording": "https://youtube.com/live/W-WKLaPvA78?feature=share",
+                "Slides": "/static/slides/cl07_recursion.pdf"
+            }
+        }
+    ],
     "2024-07-10": [],
     "2024-07-11": [],
-    "2024-07-12": [],
-    "2024-07-13": [],
-    "2024-07-14": [],
-    "2024-07-15": [],
-    "2024-07-16": [
+    "2024-07-12": [
         {
             "kind": "QZ",
             "n": 2,
             "title": "Quiz 2",
-            "date": "2024-07-16",
-            "deadline": "2024-07-16",
+            "date": "2024-07-12",
+            "deadline": "2024-07-12",
             "links": {
                 "Practice Quiz": "/static/practice/qz02-practice.pdf",
                 "Practice Quiz Key": "/static/practice/qz02-practice-key.pdf"
             }
         }
     ],
+    "2024-07-13": [],
+    "2024-07-14": [],
+    "2024-07-15": [],
+    "2024-07-16": [],
     "2024-07-17": [],
     "2024-07-18": [],
-    "2024-07-19": [],
+    "2024-07-19": [
+        {
+            "kind": "QZ",
+            "n": 3,
+            "title": "Quiz 3",
+            "date": "2024-07-19",
+            "deadline": "2024-07-19",
+            "links": {}
+        }
+    ],
     "2024-07-20": [],
     "2024-07-21": [],
     "2024-07-22": [],
     "2024-07-23": [],
     "2024-07-24": [],
-    "2024-07-25": [
-        {
-            "kind": "QZ",
-            "n": 3,
-            "title": "Quiz 3",
-            "date": "2024-07-25",
-            "deadline": "2024-07-25",
-            "links": {
-                "Practice Quiz": "/static/practice/qz03-practice.pdf",
-                "Practice Quiz - Key": "/static/practice/qz03-practice-key.pdf"
-            }
-        }
-    ],
+    "2024-07-25": [],
     "2024-07-29": [
         {
             "kind": "FN",
@@ -220,5 +408,6 @@
             "deadline": "None",
             "links": {}
         }
-    ]
+    ],
+    "2024-07-27": []
 }
