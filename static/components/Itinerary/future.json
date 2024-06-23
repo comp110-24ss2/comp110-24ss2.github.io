@@ -54,7 +54,7 @@
             "date": "2024-06-25",
             "deadline": "2024-06-25",
             "links": {
-                "": "TODO"
+                "": "https://youtu.be/1RegRkuPBCI"
             }
         },
         {
@@ -64,7 +64,7 @@
             "date": "2024-06-25",
             "deadline": "2024-06-25",
             "links": {
-                "": "TODO"
+                "": ""
             }
         },
         {
@@ -319,10 +319,7 @@
             "title": "Quiz 1",
             "date": "2024-07-05",
             "deadline": "2024-07-05",
-            "links": {
-                "Practice Quiz": "/static/practice/qz01-practice.pdf",
-                "Practice Quiz - Key": "/static/practice/qz01-practice-key.pdf"
-            }
+            "links": {}
         },
         {
             "kind": "LS",
@@ -349,19 +346,7 @@
     "2024-07-06": [],
     "2024-07-07": [],
     "2024-07-08": [],
-    "2024-07-09": [
-        {
-            "kind": "CL",
-            "n": 4,
-            "title": "Recursion, Positional Arguments, Default Parameters",
-            "date": "2024-07-09",
-            "deadline": "None",
-            "links": {
-                "Recording": "https://youtube.com/live/W-WKLaPvA78?feature=share",
-                "Slides": "/static/slides/cl07_recursion.pdf"
-            }
-        }
-    ],
+    "2024-07-09": [],
     "2024-07-10": [],
     "2024-07-11": [],
     "2024-07-12": [
@@ -371,10 +356,7 @@
             "title": "Quiz 2",
             "date": "2024-07-12",
             "deadline": "2024-07-12",
-            "links": {
-                "Practice Quiz": "/static/practice/qz02-practice.pdf",
-                "Practice Quiz Key": "/static/practice/qz02-practice-key.pdf"
-            }
+            "links": {}
         }
     ],
     "2024-07-13": [],
@@ -408,6 +390,5 @@
             "deadline": "None",
             "links": {}
         }
-    ],
-    "2024-07-27": []
+    ]
 }
