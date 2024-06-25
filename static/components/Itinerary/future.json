@@ -149,30 +149,7 @@
             }
         }
     ],
-    "2024-06-27": [
-        {
-            "kind": "CQ",
-            "n": 3,
-            "title": "Practice with Functions",
-            "date": "2024-06-27",
-            "deadline": "2024-06-27",
-            "links": {
-                "Recording": "https://youtube.com/live/iuE1EGhRyHg",
-                "Slides": "/static/slides/cl02_functions.pdf"
-            }
-        },
-        {
-            "kind": "CQ",
-            "n": 4,
-            "title": "Practice with Diagrams",
-            "date": "2024-06-27",
-            "deadline": "2024-06-27",
-            "links": {
-                "Recording": "https://youtube.com/live/zYZ8hR-K1ss?feature=share",
-                "Slides": "/static/slides/cl03_diagram_practice.pdf"
-            }
-        }
-    ],
+    "2024-06-27": [],
     "2024-06-28": [
         {
             "kind": "QZ",
