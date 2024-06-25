@@ -87,8 +87,92 @@
             }
         }
     ],
-    "2024-06-26": [],
-    "2024-06-27": [],
+    "2024-06-26": [
+        {
+            "kind": "CQ",
+            "n": 0,
+            "title": "Practice with Objects and Data Types",
+            "date": "2024-06-26",
+            "deadline": "2024-06-26",
+            "links": {
+                "": "https://youtu.be/xrCVFHxkQJQ"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 1,
+            "title": "Practice with Expressions",
+            "date": "2024-06-26",
+            "deadline": "2024-06-26",
+            "links": {
+                "": "https://youtu.be/JL7i07Rr31w"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 6,
+            "title": "Intro to Functions",
+            "date": "2024-06-26",
+            "deadline": "2024-06-26",
+            "links": {
+                "": "https://youtu.be/o-JqlH0SOd0"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 7,
+            "title": "Intro to Diagrams (Include Heap IDs)",
+            "date": "2024-06-26",
+            "deadline": "2024-06-26",
+            "links": {
+                "": ""
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 2,
+            "title": "EX00 Reflection",
+            "date": "2024-06-26",
+            "deadline": "2024-06-26",
+            "links": {
+                "": "https://www.gradescope.com"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 1,
+            "title": "Tea Party Planner (Due Thursday 6/27)",
+            "date": "2024-06-26",
+            "deadline": "2024-06-27",
+            "links": {
+                "": ""
+            }
+        }
+    ],
+    "2024-06-27": [
+        {
+            "kind": "CQ",
+            "n": 3,
+            "title": "Practice with Functions",
+            "date": "2024-06-27",
+            "deadline": "2024-06-27",
+            "links": {
+                "Recording": "https://youtube.com/live/iuE1EGhRyHg",
+                "Slides": "/static/slides/cl02_functions.pdf"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 4,
+            "title": "Practice with Diagrams",
+            "date": "2024-06-27",
+            "deadline": "2024-06-27",
+            "links": {
+                "Recording": "https://youtube.com/live/zYZ8hR-K1ss?feature=share",
+                "Slides": "/static/slides/cl03_diagram_practice.pdf"
+            }
+        }
+    ],
     "2024-06-28": [
         {
             "kind": "QZ",
