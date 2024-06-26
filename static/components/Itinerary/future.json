@@ -1,92 +1,4 @@
 {
-    "2024-06-24": [
-        {
-            "kind": "CL",
-            "n": 0,
-            "title": "Welcome to COMP110!",
-            "date": "2024-06-24",
-            "deadline": "2024-06-24",
-            "links": {
-                "Zoom Recording (Passcode: +ONz?4$u)": "https://unc.zoom.us/rec/share/42KIGECL-PYCdZ07HV18b_40zbGiTGpDRbtloJOec4W04dFfBs7eWVmTF7pSb_gB.sK_wJnGjHErM2XNT?startTime=1719236402000"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 0,
-            "title": "Syllabus Familiarity",
-            "date": "2024-06-24",
-            "deadline": "2024-06-24",
-            "links": {
-                "1. Read the Syllabus": "/resources/syllabus.html",
-                "2. Complete Lesson 00 Responses on Gradescope": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 1,
-            "title": "Software Setup",
-            "date": "2024-06-24",
-            "deadline": "2024-06-24",
-            "links": {
-                "1. OS Update": "/resources/setup/os-update.html",
-                "2. Docker, git, VS Code": "/resources/setup/software.html",
-                "3. COMP110 Workspace": "/resources/setup/workspace.html",
-                "4. Complete the LS01 Responses on Gradescope": "https://www.gradescope.com/"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 0,
-            "title": "Hello World (Due Tuesday 6/25)",
-            "date": "2024-06-24",
-            "deadline": "2024-06-25",
-            "links": {
-                "": "/exercises/ex00_hello_campers.html"
-            }
-        }
-    ],
-    "2024-06-25": [
-        {
-            "kind": "LS",
-            "n": 2,
-            "title": "Computer Systems - Processes, Shells, Kernels, and Hardware",
-            "date": "2024-06-25",
-            "deadline": "2024-06-25",
-            "links": {
-                "": "https://youtu.be/1RegRkuPBCI"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 3,
-            "title": "Programs, Languages, and Interpreters",
-            "date": "2024-06-25",
-            "deadline": "2024-06-25",
-            "links": {
-                "": "https://youtu.be/tWEuKwA36GI"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 4,
-            "title": "Objects and Data Types",
-            "date": "2024-06-25",
-            "deadline": "2024-06-25",
-            "links": {
-                "": "/lessons/objects-data-types.html"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 5,
-            "title": "Expressions",
-            "date": "2024-06-25",
-            "deadline": "2024-06-25",
-            "links": {
-                "": "/lessons/expressions.html"
-            }
-        }
-    ],
     "2024-06-26": [
         {
             "kind": "CQ",
@@ -122,7 +34,7 @@
         {
             "kind": "LS",
             "n": 7,
-            "title": "Intro to Diagrams (Include Heap IDs)",
+            "title": "Quick Intro to Memory Diagrams",
             "date": "2024-06-26",
             "deadline": "2024-06-26",
             "links": {
@@ -142,15 +54,57 @@
         {
             "kind": "EX",
             "n": 1,
-            "title": "Tea Party Planner (Due Thursday 6/27)",
+            "title": "Tea Party Planner (Due Monday 7/1)",
             "date": "2024-06-26",
-            "deadline": "2024-06-27",
+            "deadline": "2024-07-01",
             "links": {
                 "": "/exercises/ex01_tea_party_planner.html"
             }
         }
     ],
-    "2024-06-27": [],
+    "2024-06-27": [
+        {
+            "kind": "CQ",
+            "n": 3,
+            "title": "Practice with Functions",
+            "date": "2024-06-27",
+            "deadline": "2024-06-27",
+            "links": {
+                "": "https://youtu.be/MMdAtU05WiA"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 8,
+            "title": "Memory Diagrams in Depth",
+            "date": "2024-06-27",
+            "deadline": "2024-06-27",
+            "links": {
+                "Video Lesson": "https://youtu.be/dI2qY_UZFaU",
+                "Memory Diagram Rules": "/static/slides/memory_diagrams_v0.pdf"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 4,
+            "title": "Memory Diagram Practice",
+            "date": "2024-06-27",
+            "deadline": "2024-06-27",
+            "links": {
+                "": "https://youtu.be/Z50yGoUIWqI"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 5,
+            "title": "Review of Memory Diagram Rules",
+            "date": "2024-06-27",
+            "deadline": "2024-06-27",
+            "links": {
+                "": "https://www.gradescope.com"
+            }
+        }
+    ],
     "2024-06-28": [
         {
             "kind": "QZ",
