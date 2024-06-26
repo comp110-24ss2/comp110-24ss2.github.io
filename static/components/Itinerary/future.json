@@ -115,7 +115,8 @@
             "date": "2024-06-26",
             "deadline": "2024-06-26",
             "links": {
-                "": "https://youtu.be/o-JqlH0SOd0"
+                "Video": "https://youtu.be/o-JqlH0SOd0",
+                "Slides": "/static/slides/ls06_functions.pdf"
             }
         },
         {
@@ -125,7 +126,7 @@
             "date": "2024-06-26",
             "deadline": "2024-06-26",
             "links": {
-                "": ""
+                "": "https://youtu.be/W7jxqUX5-so"
             }
         },
         {
@@ -145,7 +146,7 @@
             "date": "2024-06-26",
             "deadline": "2024-06-27",
             "links": {
-                "": ""
+                "": "/exercises/ex01_tea_party_planner.html"
             }
         }
     ],
