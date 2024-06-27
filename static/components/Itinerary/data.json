@@ -191,6 +191,16 @@
             "links": {
                 "": "https://www.gradescope.com"
             }
+        },
+        {
+            "kind": "CQ",
+            "n": 6,
+            "title": "return Statements vs. print Calls",
+            "date": "2024-06-27",
+            "deadline": "2024-06-27",
+            "links": {
+                "": "https://youtu.be/zYBnRsi2if0"
+            }
         }
     ],
     "2024-06-28": [

@@ -86,5 +86,68 @@
                 "": "/lessons/expressions.html"
             }
         }
+    ],
+    "2024-06-26": [
+        {
+            "kind": "CQ",
+            "n": 0,
+            "title": "Practice with Objects and Data Types",
+            "date": "2024-06-26",
+            "deadline": "2024-06-26",
+            "links": {
+                "": "https://youtu.be/xrCVFHxkQJQ"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 1,
+            "title": "Practice with Expressions",
+            "date": "2024-06-26",
+            "deadline": "2024-06-26",
+            "links": {
+                "": "https://youtu.be/JL7i07Rr31w"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 6,
+            "title": "Intro to Functions",
+            "date": "2024-06-26",
+            "deadline": "2024-06-26",
+            "links": {
+                "Video": "https://youtu.be/o-JqlH0SOd0",
+                "Slides": "/static/slides/ls06_functions.pdf"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 7,
+            "title": "Quick Intro to Memory Diagrams",
+            "date": "2024-06-26",
+            "deadline": "2024-06-26",
+            "links": {
+                "": "https://youtu.be/W7jxqUX5-so"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 2,
+            "title": "EX00 Reflection",
+            "date": "2024-06-26",
+            "deadline": "2024-06-26",
+            "links": {
+                "": "https://www.gradescope.com"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 1,
+            "title": "Tea Party Planner (Due Monday 7/1)",
+            "date": "2024-06-26",
+            "deadline": "2024-07-01",
+            "links": {
+                "": "/exercises/ex01_tea_party_planner.html"
+            }
+        }
     ]
 }
