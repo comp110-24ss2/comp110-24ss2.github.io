@@ -149,5 +149,72 @@
                 "": "/exercises/ex01_tea_party_planner.html"
             }
         }
-    ]
+    ],
+    "2024-06-27": [
+        {
+            "kind": "CQ",
+            "n": 3,
+            "title": "Practice with Functions",
+            "date": "2024-06-27",
+            "deadline": "2024-06-27",
+            "links": {
+                "": "https://youtu.be/MMdAtU05WiA"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 8,
+            "title": "Memory Diagrams in Depth",
+            "date": "2024-06-27",
+            "deadline": "2024-06-27",
+            "links": {
+                "Video Lesson": "https://youtu.be/dI2qY_UZFaU",
+                "Memory Diagram Rules": "/static/slides/memory_diagrams_v0.pdf"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 4,
+            "title": "Memory Diagram Practice",
+            "date": "2024-06-27",
+            "deadline": "2024-06-27",
+            "links": {
+                "": "https://youtu.be/Z50yGoUIWqI"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 5,
+            "title": "Review of Memory Diagram Rules",
+            "date": "2024-06-27",
+            "deadline": "2024-06-27",
+            "links": {
+                "": "https://www.gradescope.com"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 6,
+            "title": "return Statements vs. print Calls",
+            "date": "2024-06-27",
+            "deadline": "2024-06-27",
+            "links": {
+                "": "https://youtu.be/zYBnRsi2if0"
+            }
+        }
+    ],
+    "2024-06-28": [
+        {
+            "kind": "QZ",
+            "n": 0,
+            "title": "Quiz 0",
+            "date": "2024-06-28",
+            "deadline": "2024-06-28",
+            "links": {
+                "Read Quiz Expectations": "/resources/quiz-expectations.html"
+            }
+        }
+    ],
+    "2024-06-29": [],
+    "2024-06-30": []
 }

@@ -1,72 +1,46 @@
 {
-    "2024-06-27": [
+    "2024-07-01": [
         {
-            "kind": "CQ",
-            "n": 3,
-            "title": "Practice with Functions",
-            "date": "2024-06-27",
-            "deadline": "2024-06-27",
+            "kind": "LS",
+            "n": 9,
+            "title": "f-Strings - Formatted String Literals",
+            "date": "2024-07-01",
+            "deadline": "2024-07-01",
             "links": {
-                "": "https://youtu.be/MMdAtU05WiA"
+                "": "https://youtu.be/tf0kEcaROXQ"
             }
         },
         {
             "kind": "LS",
-            "n": 8,
-            "title": "Memory Diagrams in Depth",
-            "date": "2024-06-27",
-            "deadline": "2024-06-27",
+            "n": 10,
+            "title": "Variables",
+            "date": "2024-07-01",
+            "deadline": "2024-07-01",
             "links": {
-                "Video Lesson": "https://youtu.be/dI2qY_UZFaU",
-                "Memory Diagram Rules": "/static/slides/memory_diagrams_v0.pdf"
+                "": "/lessons/variables.html"
             }
         },
         {
             "kind": "CQ",
-            "n": 4,
-            "title": "Memory Diagram Practice",
-            "date": "2024-06-27",
-            "deadline": "2024-06-27",
+            "n": 7,
+            "title": "Practice with Variables",
+            "date": "2024-07-01",
+            "deadline": "2024-07-01",
             "links": {
-                "": "https://youtu.be/Z50yGoUIWqI"
+                "": "https://youtu.be/IeZ3W7BwrP0"
             }
         },
         {
-            "kind": "CQ",
-            "n": 5,
-            "title": "Review of Memory Diagram Rules",
-            "date": "2024-06-27",
-            "deadline": "2024-06-27",
+            "kind": "LS",
+            "n": 11,
+            "title": "Unicode, Emoji, Escape Sequences",
+            "date": "2024-07-01",
+            "deadline": "2024-07-01",
             "links": {
-                "": "https://www.gradescope.com"
-            }
-        },
-        {
-            "kind": "CQ",
-            "n": 6,
-            "title": "return Statements vs. print Calls",
-            "date": "2024-06-27",
-            "deadline": "2024-06-27",
-            "links": {
-                "": "https://youtu.be/zYBnRsi2if0"
+                "": "/lessons/strings.html"
             }
         }
     ],
-    "2024-06-28": [
-        {
-            "kind": "QZ",
-            "n": 0,
-            "title": "Quiz 0",
-            "date": "2024-06-28",
-            "deadline": "2024-06-28",
-            "links": {
-                "Read Quiz Expectations": "/resources/quiz-expectations.html"
-            }
-        }
-    ],
-    "2024-06-29": [],
-    "2024-06-30": [],
-    "2024-07-01": [],
     "2024-07-02": [],
     "2024-07-03": [],
     "2024-07-04": [],
