@@ -216,5 +216,47 @@
         }
     ],
     "2024-06-29": [],
-    "2024-06-30": []
+    "2024-06-30": [],
+    "2024-07-01": [
+        {
+            "kind": "LS",
+            "n": 9,
+            "title": "f-Strings - Formatted String Literals",
+            "date": "2024-07-01",
+            "deadline": "2024-07-01",
+            "links": {
+                "": "https://youtu.be/tf0kEcaROXQ"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 10,
+            "title": "Variables",
+            "date": "2024-07-01",
+            "deadline": "2024-07-01",
+            "links": {
+                "": "/lessons/variables.html"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 7,
+            "title": "Practice with Variables",
+            "date": "2024-07-01",
+            "deadline": "2024-07-01",
+            "links": {
+                "": "https://youtu.be/IeZ3W7BwrP0"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 11,
+            "title": "Unicode, Emoji, Escape Sequences",
+            "date": "2024-07-01",
+            "deadline": "2024-07-01",
+            "links": {
+                "": "/lessons/strings.html"
+            }
+        }
+    ]
 }
