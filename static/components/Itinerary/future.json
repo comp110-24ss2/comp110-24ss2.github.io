@@ -33,11 +33,21 @@
         {
             "kind": "LS",
             "n": 16,
+            "title": "Iterating N times over a Sequence",
+            "date": "2024-07-03",
+            "deadline": "2024-07-03",
+            "links": {
+                "": "https://youtu.be/kZ7JiPFw1NY"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 17,
             "title": "Debugging",
             "date": "2024-07-03",
             "deadline": "2024-07-03",
             "links": {
-                "Posts before 9:45am": ""
+                "": "https://youtu.be/qeb52CpXYtQ"
             }
         }
     ],
