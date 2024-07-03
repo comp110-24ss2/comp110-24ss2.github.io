@@ -311,7 +311,48 @@
             }
         }
     ],
-    "2024-07-03": [],
+    "2024-07-03": [
+        {
+            "kind": "CQ",
+            "n": 9,
+            "title": "Practice with Control Flow",
+            "date": "2024-07-03",
+            "deadline": "2024-07-03",
+            "links": {
+                "": "https://youtu.be/ovIt8iQaZfg"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 10,
+            "title": "Unreachable Branches and Logical Conditionals",
+            "date": "2024-07-03",
+            "deadline": "2024-07-03",
+            "links": {
+                "": "https://youtu.be/3L8yBlm86no"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 15,
+            "title": "Logical Operators (and, or, not)",
+            "date": "2024-07-03",
+            "deadline": "2024-07-03",
+            "links": {
+                "": "https://youtu.be/HYZxeCGFURc"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 16,
+            "title": "Debugging",
+            "date": "2024-07-03",
+            "deadline": "2024-07-03",
+            "links": {
+                "Posts before 9:45am": ""
+            }
+        }
+    ],
     "2024-07-04": [],
     "2024-07-05": [
         {

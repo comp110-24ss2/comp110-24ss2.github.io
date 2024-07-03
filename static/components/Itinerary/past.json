@@ -258,5 +258,57 @@
                 "": "/lessons/strings.html"
             }
         }
+    ],
+    "2024-07-02": [
+        {
+            "kind": "LS",
+            "n": 12,
+            "title": "Conditional if/else Statements",
+            "date": "2024-07-02",
+            "deadline": "2024-07-02",
+            "links": {
+                "": "https://youtu.be/Mv8Snl1uL8c"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 8,
+            "title": "Practice with Conditionals and Variables",
+            "date": "2024-07-02",
+            "deadline": "2024-07-02",
+            "links": {
+                "": "https://youtu.be/31dDl05jDfE"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 13,
+            "title": "Named Constants",
+            "date": "2024-07-02",
+            "deadline": "2024-07-02",
+            "links": {
+                "": "https://youtu.be/6iU2Ab6w-LA"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 14,
+            "title": "Introduction to while Loop Statements",
+            "date": "2024-07-02",
+            "deadline": "2024-07-02",
+            "links": {
+                "": "/lessons/while_loops.html"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 2,
+            "title": "Wordle (Due Monday 7/8)",
+            "date": "2024-07-02",
+            "deadline": "2024-07-08",
+            "links": {
+                "": "/exercises/ex02_wordle.html"
+            }
+        }
     ]
 }
