@@ -1,70 +1,57 @@
 {
-    "2024-07-03": [
-        {
-            "kind": "CQ",
-            "n": 9,
-            "title": "Practice with Control Flow",
-            "date": "2024-07-03",
-            "deadline": "2024-07-03",
-            "links": {
-                "": "https://youtu.be/ovIt8iQaZfg"
-            }
-        },
-        {
-            "kind": "CQ",
-            "n": 10,
-            "title": "Unreachable Branches and Logical Conditionals",
-            "date": "2024-07-03",
-            "deadline": "2024-07-03",
-            "links": {
-                "": "https://youtu.be/3L8yBlm86no"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 15,
-            "title": "Logical Operators (and, or, not)",
-            "date": "2024-07-03",
-            "deadline": "2024-07-03",
-            "links": {
-                "": "https://youtu.be/HYZxeCGFURc"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 16,
-            "title": "Iterating N times over a Sequence",
-            "date": "2024-07-03",
-            "deadline": "2024-07-03",
-            "links": {
-                "": "https://youtu.be/kZ7JiPFw1NY"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 17,
-            "title": "Debugging",
-            "date": "2024-07-03",
-            "deadline": "2024-07-03",
-            "links": {
-                "": "https://youtu.be/qeb52CpXYtQ"
-            }
-        }
-    ],
-    "2024-07-04": [],
-    "2024-07-05": [
-        {
-            "kind": "QZ",
-            "n": 1,
-            "title": "Quiz 1",
-            "date": "2024-07-05",
-            "deadline": "2024-07-05",
-            "links": {}
-        }
-    ],
-    "2024-07-06": [],
     "2024-07-07": [],
-    "2024-07-08": [],
+    "2024-07-08": [
+        {
+            "kind": "LS",
+            "n": 18,
+            "title": "List Data Type",
+            "date": "2024-07-08",
+            "deadline": "2024-07-08",
+            "links": {
+                "": "https://www.youtube.com/watch?v=HXMh5WWIGag&list=PLKUb7MEve0ThjnkIeywrHKxjdu4Ql_9Cm&index=18"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 19,
+            "title": "Reference Types 101",
+            "date": "2024-07-08",
+            "deadline": "2024-07-08",
+            "links": {
+                "": "https://www.youtube.com/watch?v=MCkyE2BxNPE&list=PLKUb7MEve0ThjnkIeywrHKxjdu4Ql_9Cm&index=19"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 11,
+            "title": "Passing References as Arguments",
+            "date": "2024-07-08",
+            "deadline": "2024-07-08",
+            "links": {
+                "": "https://www.youtube.com/watch?v=FWZMAQxC7Tc&list=PLKUb7MEve0ThjnkIeywrHKxjdu4Ql_9Cm&index=20"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 20,
+            "title": "List Item Assignment",
+            "date": "2024-07-08",
+            "deadline": "2024-07-08",
+            "links": {
+                "": "https://www.youtube.com/watch?v=z9EOVQINaig&list=PLKUb7MEve0ThjnkIeywrHKxjdu4Ql_9Cm&index=21"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 21,
+            "title": "Relative Reassignment Operators",
+            "date": "2024-07-08",
+            "deadline": "2024-07-08",
+            "links": {
+                "": "https://www.youtube.com/watch?v=4ttkAKGq3HM&list=PLKUb7MEve0ThjnkIeywrHKxjdu4Ql_9Cm&index=22"
+            }
+        }
+    ],
     "2024-07-09": [],
     "2024-07-10": [],
     "2024-07-11": [],
