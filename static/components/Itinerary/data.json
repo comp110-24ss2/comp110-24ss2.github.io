@@ -480,7 +480,28 @@
             }
         }
     ],
-    "2024-07-10": [],
+    "2024-07-10": [
+        {
+            "kind": "LS",
+            "n": 25,
+            "title": "Importing Functions from other Modules",
+            "date": "2024-07-10",
+            "deadline": "2024-07-10",
+            "links": {
+                "": "https://www.youtube.com/watch?v=75SAJ2_IuQ0&list=PLKUb7MEve0ThjnkIeywrHKxjdu4Ql_9Cm&index=27"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 26,
+            "title": "Testing functions with pytest Unit Tests",
+            "date": "2024-07-10",
+            "deadline": "2024-07-10",
+            "links": {
+                "": "https://www.youtube.com/watch?v=tIOralFPors&list=PLKUb7MEve0ThjnkIeywrHKxjdu4Ql_9Cm&index=28"
+            }
+        }
+    ],
     "2024-07-11": [],
     "2024-07-12": [
         {

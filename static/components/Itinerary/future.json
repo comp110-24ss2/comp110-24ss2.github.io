@@ -1,47 +1,26 @@
 {
-    "2024-07-09": [
+    "2024-07-10": [
         {
             "kind": "LS",
-            "n": 22,
-            "title": "Positional Arguments",
-            "date": "2024-07-09",
-            "deadline": "2024-07-09",
+            "n": 25,
+            "title": "Importing Functions from other Modules",
+            "date": "2024-07-10",
+            "deadline": "2024-07-10",
             "links": {
-                "": "https://www.youtube.com/watch?v=gvJXi3f88AE&list=PLKUb7MEve0ThjnkIeywrHKxjdu4Ql_9Cm&index=23"
+                "": "https://www.youtube.com/watch?v=75SAJ2_IuQ0&list=PLKUb7MEve0ThjnkIeywrHKxjdu4Ql_9Cm&index=27"
             }
         },
         {
             "kind": "LS",
-            "n": 23,
-            "title": "Building a Raffle App with Lists",
-            "date": "2024-07-09",
-            "deadline": "2024-07-09",
+            "n": 26,
+            "title": "Testing functions with pytest Unit Tests",
+            "date": "2024-07-10",
+            "deadline": "2024-07-10",
             "links": {
-                "": "https://www.youtube.com/watch?v=UR9Eu8rBmDU&list=PLKUb7MEve0ThjnkIeywrHKxjdu4Ql_9Cm&index=24"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 24,
-            "title": "The elif Syntax",
-            "date": "2024-07-09",
-            "deadline": "2024-07-09",
-            "links": {
-                "": "https://www.youtube.com/watch?v=6kf0A8w3W0g&list=PLKUb7MEve0ThjnkIeywrHKxjdu4Ql_9Cm&index=25"
-            }
-        },
-        {
-            "kind": "CQ",
-            "n": 12,
-            "title": "Diagram List Return Values and Pure vs. Mutation",
-            "date": "2024-07-09",
-            "deadline": "2024-07-09",
-            "links": {
-                "": "https://www.youtube.com/watch?v=_-kClhc1TiU&list=PLKUb7MEve0ThjnkIeywrHKxjdu4Ql_9Cm&index=26"
+                "": "https://www.youtube.com/watch?v=tIOralFPors&list=PLKUb7MEve0ThjnkIeywrHKxjdu4Ql_9Cm&index=28"
             }
         }
     ],
-    "2024-07-10": [],
     "2024-07-11": [],
     "2024-07-12": [
         {
