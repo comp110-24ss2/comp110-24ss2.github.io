@@ -500,6 +500,16 @@
             "links": {
                 "": "https://www.youtube.com/watch?v=tIOralFPors&list=PLKUb7MEve0ThjnkIeywrHKxjdu4Ql_9Cm&index=28"
             }
+        },
+        {
+            "kind": "EX",
+            "n": 4,
+            "title": "List Utils - Part 2 (Due Friday 7/12)",
+            "date": "2024-07-10",
+            "deadline": "2024-07-12",
+            "links": {
+                "": "/exercises/ex04_list_utils_p2.html"
+            }
         }
     ],
     "2024-07-11": [],
