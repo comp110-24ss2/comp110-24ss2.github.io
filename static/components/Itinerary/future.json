@@ -1,37 +1,46 @@
 {
-    "2024-07-10": [
+    "2024-07-11": [
         {
-            "kind": "LS",
-            "n": 25,
-            "title": "Importing Functions from other Modules",
-            "date": "2024-07-10",
-            "deadline": "2024-07-10",
+            "kind": "CQ",
+            "n": 13,
+            "title": "Nested while Loops",
+            "date": "2024-07-11",
+            "deadline": "2024-07-11",
             "links": {
-                "": "https://www.youtube.com/watch?v=75SAJ2_IuQ0&list=PLKUb7MEve0ThjnkIeywrHKxjdu4Ql_9Cm&index=27"
+                "": "https://www.youtube.com/watch?v=YLjMhkvt290&list=PLKUb7MEve0ThjnkIeywrHKxjdu4Ql_9Cm&index=29"
             }
         },
         {
             "kind": "LS",
-            "n": 26,
-            "title": "Testing functions with pytest Unit Tests",
-            "date": "2024-07-10",
-            "deadline": "2024-07-10",
+            "n": 27,
+            "title": "Insertion Sort Algorithm Intuition",
+            "date": "2024-07-11",
+            "deadline": "2024-07-11",
             "links": {
-                "": "https://www.youtube.com/watch?v=tIOralFPors&list=PLKUb7MEve0ThjnkIeywrHKxjdu4Ql_9Cm&index=28"
+                "": "https://www.youtube.com/watch?v=0GRc0Oqc0mY&list=PLKUb7MEve0ThjnkIeywrHKxjdu4Ql_9Cm&index=30"
             }
         },
         {
-            "kind": "EX",
-            "n": 4,
-            "title": "List Utils - Part 2 (Due Friday 7/12)",
-            "date": "2024-07-10",
-            "deadline": "2024-07-12",
+            "kind": "CQ",
+            "n": 14,
+            "title": "Insertion Sort Memory Diagram",
+            "date": "2024-07-11",
+            "deadline": "2024-07-11",
             "links": {
-                "": "/exercises/ex04_list_utils_p2.html"
+                "": "https://www.youtube.com/watch?v=m4960pGlOII&list=PLKUb7MEve0ThjnkIeywrHKxjdu4Ql_9Cm&index=31"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 15,
+            "title": "Diagramming Nested Lists",
+            "date": "2024-07-11",
+            "deadline": "2024-07-11",
+            "links": {
+                "": "https://www.youtube.com/watch?v=fEcOn7IS8_c&list=PLKUb7MEve0ThjnkIeywrHKxjdu4Ql_9Cm&index=32"
             }
         }
     ],
-    "2024-07-11": [],
     "2024-07-12": [
         {
             "kind": "QZ",
