@@ -596,6 +596,16 @@
             "links": {
                 "": "https://www.youtube.com/watch?v=eR-pE54IMeQ&list=PLKUb7MEve0ThjnkIeywrHKxjdu4Ql_9Cm&index=35"
             }
+        },
+        {
+            "kind": "EX",
+            "n": 5,
+            "title": "Dictionary and Set Functions (Due Wednesday 7/17)",
+            "date": "2024-07-15",
+            "deadline": "2024-07-17",
+            "links": {
+                "": "/exercises/ex05_dict_functions.html"
+            }
         }
     ],
     "2024-07-16": [],
