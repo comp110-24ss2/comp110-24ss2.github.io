@@ -608,7 +608,28 @@
             }
         }
     ],
-    "2024-07-16": [],
+    "2024-07-16": [
+        {
+            "kind": "CQ",
+            "n": 16,
+            "title": "Diagrams with Dictionaries",
+            "date": "2024-07-16",
+            "deadline": "2024-07-16",
+            "links": {
+                "": "https://www.youtube.com/watch?v=2l10lYRsjVI&list=PLKUb7MEve0ThjnkIeywrHKxjdu4Ql_9Cm&index=36"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 17,
+            "title": "Dictionaries vs. Lists",
+            "date": "2024-07-16",
+            "deadline": "2024-07-16",
+            "links": {
+                "": "https://www.youtube.com/watch?v=2NiqUxq4I1I&list=PLKUb7MEve0ThjnkIeywrHKxjdu4Ql_9Cm&index=37"
+            }
+        }
+    ],
     "2024-07-17": [],
     "2024-07-18": [],
     "2024-07-19": [

@@ -1,47 +1,26 @@
 {
-    "2024-07-15": [
+    "2024-07-16": [
         {
-            "kind": "LS",
-            "n": 28,
-            "title": "set Collection Type",
-            "date": "2024-07-15",
-            "deadline": "2024-07-15",
+            "kind": "CQ",
+            "n": 16,
+            "title": "Diagrams with Dictionaries",
+            "date": "2024-07-16",
+            "deadline": "2024-07-16",
             "links": {
-                "": "https://www.youtube.com/watch?v=fAQ42t4gItA&list=PLKUb7MEve0ThjnkIeywrHKxjdu4Ql_9Cm&index=33"
+                "": "https://www.youtube.com/watch?v=2l10lYRsjVI&list=PLKUb7MEve0ThjnkIeywrHKxjdu4Ql_9Cm&index=36"
             }
         },
         {
-            "kind": "LS",
-            "n": 29,
-            "title": "dict Collection Type",
-            "date": "2024-07-15",
-            "deadline": "2024-07-15",
+            "kind": "CQ",
+            "n": 17,
+            "title": "Dictionaries vs. Lists",
+            "date": "2024-07-16",
+            "deadline": "2024-07-16",
             "links": {
-                "": "https://www.youtube.com/watch?v=do0O4uc7W4Y&list=PLKUb7MEve0ThjnkIeywrHKxjdu4Ql_9Cm&index=34"
-            }
-        },
-        {
-            "kind": "LS",
-            "n": 30,
-            "title": "for..in Loops to Iterate over Collections",
-            "date": "2024-07-15",
-            "deadline": "2024-07-15",
-            "links": {
-                "": "https://www.youtube.com/watch?v=eR-pE54IMeQ&list=PLKUb7MEve0ThjnkIeywrHKxjdu4Ql_9Cm&index=35"
-            }
-        },
-        {
-            "kind": "EX",
-            "n": 5,
-            "title": "Dictionary and Set Functions (Due Wednesday 7/17)",
-            "date": "2024-07-15",
-            "deadline": "2024-07-17",
-            "links": {
-                "": "/exercises/ex05_dict_functions.html"
+                "": "https://www.youtube.com/watch?v=2NiqUxq4I1I&list=PLKUb7MEve0ThjnkIeywrHKxjdu4Ql_9Cm&index=37"
             }
         }
     ],
-    "2024-07-16": [],
     "2024-07-17": [],
     "2024-07-18": [],
     "2024-07-19": [

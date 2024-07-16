@@ -565,5 +565,47 @@
         }
     ],
     "2024-07-13": [],
-    "2024-07-14": []
+    "2024-07-14": [],
+    "2024-07-15": [
+        {
+            "kind": "LS",
+            "n": 28,
+            "title": "set Collection Type",
+            "date": "2024-07-15",
+            "deadline": "2024-07-15",
+            "links": {
+                "": "https://www.youtube.com/watch?v=fAQ42t4gItA&list=PLKUb7MEve0ThjnkIeywrHKxjdu4Ql_9Cm&index=33"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 29,
+            "title": "dict Collection Type",
+            "date": "2024-07-15",
+            "deadline": "2024-07-15",
+            "links": {
+                "": "https://www.youtube.com/watch?v=do0O4uc7W4Y&list=PLKUb7MEve0ThjnkIeywrHKxjdu4Ql_9Cm&index=34"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 30,
+            "title": "for..in Loops to Iterate over Collections",
+            "date": "2024-07-15",
+            "deadline": "2024-07-15",
+            "links": {
+                "": "https://www.youtube.com/watch?v=eR-pE54IMeQ&list=PLKUb7MEve0ThjnkIeywrHKxjdu4Ql_9Cm&index=35"
+            }
+        },
+        {
+            "kind": "EX",
+            "n": 5,
+            "title": "Dictionary and Set Functions (Due Wednesday 7/17)",
+            "date": "2024-07-15",
+            "deadline": "2024-07-17",
+            "links": {
+                "": "/exercises/ex05_dict_functions.html"
+            }
+        }
+    ]
 }
