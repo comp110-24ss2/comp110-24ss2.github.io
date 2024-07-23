@@ -1,27 +1,26 @@
 {
-    "2024-07-22": [
+    "2024-07-23": [
         {
             "kind": "LS",
-            "n": 37,
-            "title": "Polymorphism with Type Unions and Protocols",
-            "date": "2024-07-22",
-            "deadline": "2024-07-22",
+            "n": 38,
+            "title": "Recursive Structures and Processes",
+            "date": "2024-07-23",
+            "deadline": "2024-07-23",
             "links": {
-                "": "https://www.youtube.com/watch?v=x8zH4sZG72g&list=PLKUb7MEve0ThjnkIeywrHKxjdu4Ql_9Cm&index=46"
+                "": "https://www.youtube.com/watch?v=7qfSMVDMWjE&list=PLKUb7MEve0ThjnkIeywrHKxjdu4Ql_9Cm&index=47"
             }
         },
         {
-            "kind": "EX",
-            "n": 6,
-            "title": "Compstagram (Due Tuesday 7/23)",
-            "date": "2024-07-22",
+            "kind": "CQ",
+            "n": 20,
+            "title": "Diagramming Recursive Structures and Functions",
+            "date": "2024-07-23",
             "deadline": "2024-07-23",
             "links": {
-                "": "/exercises/ex06_compstagram.html"
+                "": "https://www.youtube.com/watch?v=Pk_wmLI5-IM&list=PLKUb7MEve0ThjnkIeywrHKxjdu4Ql_9Cm&index=48"
             }
         }
     ],
-    "2024-07-23": [],
     "2024-07-24": [],
     "2024-07-25": [],
     "2024-07-29": [

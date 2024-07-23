@@ -748,7 +748,28 @@
             }
         }
     ],
-    "2024-07-23": [],
+    "2024-07-23": [
+        {
+            "kind": "LS",
+            "n": 38,
+            "title": "Recursive Structures and Processes",
+            "date": "2024-07-23",
+            "deadline": "2024-07-23",
+            "links": {
+                "": "https://www.youtube.com/watch?v=7qfSMVDMWjE&list=PLKUb7MEve0ThjnkIeywrHKxjdu4Ql_9Cm&index=47"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 20,
+            "title": "Diagramming Recursive Structures and Functions",
+            "date": "2024-07-23",
+            "deadline": "2024-07-23",
+            "links": {
+                "": "https://www.youtube.com/watch?v=Pk_wmLI5-IM&list=PLKUb7MEve0ThjnkIeywrHKxjdu4Ql_9Cm&index=48"
+            }
+        }
+    ],
     "2024-07-24": [],
     "2024-07-25": [],
     "2024-07-29": [
