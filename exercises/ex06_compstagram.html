@@ -9,7 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="/static/styles.css?v=1721740740.8089797">
+  <link rel="stylesheet" href="/static/styles.css?v=1721777974.0630543">
 </head>
 
 
@@ -104,10 +104,9 @@
 <li><a href="#brightness-filter">3.3 Brightness Filter</a></li>
 <li><a href="#saturation-filter">3.4 Saturation Filter</a></li>
 </ul></li>
-<li><a href="#stacking-composing-filters">4. Stacking / Composing Filters</a>
-<ul>
+<li><a href="#stacking-composing-filters">4. Stacking / Composing Filters</a></li>
+<li><a href="#submit-to-gradescope-for-grading">5. Submit to Gradescope for Grading</a></li>
 <li><a href="#challenge-edition---invent-your-own-filters">Challenge Edition - Invent Your Own Filters</a></li>
-</ul></li>
 </ul>
 </</ul>
                         </div>
@@ -306,7 +305,14 @@
 <p><br /><span class="math display"><em>d</em><em>e</em><em>l</em><em>t</em><em>a</em><sub><em>c</em><em>o</em><em>m</em><em>p</em><em>o</em><em>n</em><em>e</em><em>n</em><em>t</em></sub> = (<em>t</em><em>a</em><em>r</em><em>g</em><em>e</em><em>t</em><sub><em>c</em><em>o</em><em>m</em><em>p</em><em>o</em><em>n</em><em>e</em><em>n</em><em>t</em></sub> − <em>i</em><em>n</em><em>p</em><em>u</em><em>t</em><sub><em>c</em><em>o</em><em>m</em><em>p</em><em>o</em><em>n</em><em>e</em><em>n</em><em>t</em></sub>) * <em>f</em><em>a</em><em>c</em><em>t</em><em>o</em><em>r</em></span><br /></p>
 <h1 id="stacking-composing-filters">4. Stacking / Composing Filters</h1>
 <p>In the <code>main</code> function, you will notice only <em>one</em> Filter will ever process an image, even if you add multiple filters to your request from the frontend. Your task in this section is to replace the <code>if</code> statement and <code>TODO</code> in <code>main</code> with a loop that will apply the <code>process</code> method of <em>all</em> filters in the <code>request</code> object to the <code>image</code>. Once you’ve successfully done this, you will be able to add multiple filters on top of one another, processed sequentially.</p>
-<h2 id="challenge-edition---invent-your-own-filters">Challenge Edition - Invent Your Own Filters</h2>
+<h1 id="submit-to-gradescope-for-grading">5. Submit to Gradescope for Grading</h1>
+<p>Login to Gradescope and select the assignment named “EX03 - List Utils P1.”. You’ll see an area to upload a zip file. To produce a zip file for autograding, return back to Visual Studio Code.</p>
+<p>If you do not see a Terminal at the bottom of your screen, open the Command Palette and search for “View: Toggle Integrated Terminal”.</p>
+<p>Type the following command (all on a single line):</p>
+<p><code>python -m tools.submission exercises/ex06_compstagram</code></p>
+<p>In the file explorer pane, look to find the zip file named “yy.mm.dd-hh.mm-exercises-ex03-utils.py.zip”. The “yy”, “mm”, “dd”, and so on, are timestamps with the current year, month, day, hour, minute. If you right click on this file and select “Reveal in File Explorer” on Windows or “Reveal in Finder” on Mac, the zip file’s location on your computer will open. Upload this file to Gradescope to submit your work for this exercise.</p>
+<p>Autograding will take a few moments to complete. If yours times out, that means there is an infinite list. Try using the debugger to check each of your functions for infinite loops. If there are issues reported, you are encouraged to try and resolve them and resubmit. If for any reason you aren’t receiving full credit and aren’t sure what to try next, come give us a visit in office hours!</p>
+<h1 id="challenge-edition---invent-your-own-filters">Challenge Edition - Invent Your Own Filters</h1>
 <p>These ideas are 100% optional if you are looking for more fun programming challenges.</p>
 <p>Looking for a challenge beyond the 3 required filters? Here are some ideas!</p>
 <ul>
