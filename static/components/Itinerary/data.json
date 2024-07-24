@@ -740,9 +740,9 @@
         {
             "kind": "EX",
             "n": 6,
-            "title": "Compstagram (Due Tuesday 7/23)",
+            "title": "Compstagram (Due Wednesday 7/24)",
             "date": "2024-07-22",
-            "deadline": "2024-07-23",
+            "deadline": "2024-07-24",
             "links": {
                 "": "/exercises/ex06_compstagram.html"
             }
@@ -770,7 +770,48 @@
             }
         }
     ],
-    "2024-07-24": [],
+    "2024-07-24": [
+        {
+            "kind": "CQ",
+            "n": 21,
+            "title": "Tail Recursive Functions",
+            "date": "2024-07-24",
+            "deadline": "2024-07-24",
+            "links": {
+                "": "https://www.youtube.com/watch?v=9pT97to8rXg&list=PLKUb7MEve0ThjnkIeywrHKxjdu4Ql_9Cm&index=49"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 39,
+            "title": "Building a Structure Recursively",
+            "date": "2024-07-24",
+            "deadline": "2024-07-24",
+            "links": {
+                "": "https://www.youtube.com/watch?v=D5VijxVZcfI&list=PLKUb7MEve0ThjnkIeywrHKxjdu4Ql_9Cm&index=50"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 40,
+            "title": "Recursive Application: Directory Traversal",
+            "date": "2024-07-24",
+            "deadline": "2024-07-24",
+            "links": {
+                "": "https://www.youtube.com/watch?v=gjFimlJXRnc&list=PLKUb7MEve0ThjnkIeywrHKxjdu4Ql_9Cm&index=51"
+            }
+        },
+        {
+            "kind": "CQ",
+            "n": 22,
+            "title": "Return Journey of Recursive Function Calls",
+            "date": "2024-07-24",
+            "deadline": "2024-07-24",
+            "links": {
+                "": "https://www.youtube.com/watch?v=Ppb2e1l59Lw&list=PLKUb7MEve0ThjnkIeywrHKxjdu4Ql_9Cm&index=52"
+            }
+        }
+    ],
     "2024-07-25": [],
     "2024-07-29": [
         {
