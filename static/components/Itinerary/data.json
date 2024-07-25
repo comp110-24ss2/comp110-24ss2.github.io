@@ -814,15 +814,56 @@
         {
             "kind": "RD",
             "n": 0,
-            "title": "The Ethical Algorithm",
+            "title": "The Ethical Algorithm (Due Thursday 7/25)",
             "date": "2024-07-24",
-            "deadline": "2024-07-24",
+            "deadline": "2024-07-25",
             "links": {
                 "": "https://gradescope.com"
             }
         }
     ],
-    "2024-07-25": [],
+    "2024-07-25": [
+        {
+            "kind": "CQ",
+            "n": 23,
+            "title": "Iterative Algorithm on Recursive Structures",
+            "date": "2024-07-25",
+            "deadline": "2024-07-25",
+            "links": {
+                "": "https://www.youtube.com/watch?v=iFUHhlTsX_Q&list=PLKUb7MEve0ThjnkIeywrHKxjdu4Ql_9Cm&index=53"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 41,
+            "title": "Making Art with Recursion",
+            "date": "2024-07-25",
+            "deadline": "2024-07-25",
+            "links": {
+                "": "https://www.youtube.com/watch?v=nVl81UN6KDY&list=PLKUb7MEve0ThjnkIeywrHKxjdu4Ql_9Cm&index=54"
+            }
+        },
+        {
+            "kind": "LS",
+            "n": 42,
+            "title": "Final Exam Notes and Course Close",
+            "date": "2024-07-25",
+            "deadline": "2024-07-25",
+            "links": {
+                "": "https://www.youtube.com/watch?v=4L_TVDKLYZ0&list=PLKUb7MEve0ThjnkIeywrHKxjdu4Ql_9Cm&index=55"
+            }
+        },
+        {
+            "kind": "RD",
+            "n": 1,
+            "title": "Weapons of Math Destruction (Due Friday 7/26)",
+            "date": "2024-07-25",
+            "deadline": "2024-07-26",
+            "links": {
+                "": "https://gradescope.com"
+            }
+        }
+    ],
     "2024-07-29": [
         {
             "kind": "FN",
